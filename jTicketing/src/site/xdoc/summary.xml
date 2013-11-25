@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Sommario</title>
+    </properties>
+    <meta name="keyword" content="Java Enterpise Ticketing and Box Office"/>
+    <body>
+        <section name="Sommario">
+          <p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><strong>Sommario</strong></p>
+<p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+<p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="padding: 0px; margin: 0px;"><span style="font-size: x-small;"><strong><span style="font-size: small;">1 &nbsp;</span></strong></span></span><strong>Introduzione</strong></p>
+<ul style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; font-size: 13px; padding: 0px;">
+<li style="padding: 0px; margin: 0px;">Scopo;<span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;&nbsp;</span></li>
+<li style="padding: 0px; margin: 0px;">Destinatari;</li>
+<li style="padding: 0px; margin: 0px;">Acronimi e sigle;</li>
+<li style="padding: 0px; margin: 0px;">Tecnologia.<span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;&nbsp;</span></li>
+</ul>
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><strong>2<span style="font-size: 11pt; font-family: Calibri; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;</span>Funzionalità - jTicketing</strong></p>
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="text-decoration: underline; padding: 0px; margin: 0px;"><br style="padding: 0px; margin: 0px;" /></span></p>
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><strong>3<span style="font-size: 11pt; font-family: Calibri; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;</span>Definizione dei Requisiti - jTicketing<span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;</span></strong></p>
+<ul style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; font-size: 13px; padding: 0px;">
+<li style="padding: 0px; margin: 0px;">Requisiti Funzionali.<span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;</span></li>
+</ul>
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><strong>4<span style="font-size: 11pt; font-family: Calibri; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;</span>Casi d'uso - jTicketing<span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;&nbsp;</span></strong></p>
+<ul style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; font-size: 13px; padding: 0px;">
+<li style="padding: 0px; margin: 0px;">Struttura dei casi d'uso;</li>
+<li style="padding: 0px; margin: 0px;">Matrice Requisito/Funzionalità - Casi d'uso;</li>
+<li style="padding: 0px; margin: 0px;">Vista dei casi d'uso;</li>
+<li style="padding: 0px; margin: 0px;">Attori dei casi d'uso;</li>
+<li style="padding: 0px; margin: 0px;">Analisi dei casi d'uso:</li>
+</ul>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><em>- AREA AMMINISTRATORE<span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;&nbsp;</span></em></p>
+<ul style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; font-size: 13px; padding: 0px;">
+<li style="padding: 0px; margin: 0px;">UCD_JTI_AUA_01 - Autenticazione Amministratore;<span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;&nbsp;</span></li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_AMA_01 - Amministratore: Modifica Account<span style="font-family: 'Times New Roman'; font-size: small; padding: 0px; margin: 0px;">;</span></li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_ACP_01 - Amministratore: Cambia Password;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_AML_01 - Amministratore: Logout;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_PPO_01 - Promozione Privilegio Operatore;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_RPO_01 - Rimozione Privilegio Operatore;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_ILI_01 - Inserimento Luogo di Interesse;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_MLI_01 - Modifica Luogo di Interesse;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_ELI_01 - Eliminazione Luogo di Interesse;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_AMR_01 - Amministratore: Reportistica.</li>
+</ul>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><em><span style="font-family: 'Times New Roman'; font-size: small; padding: 0px; margin: 0px;">-&nbsp;</span>AREA OPERATORE<span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;&nbsp;</span></em></p>
+<ul style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; font-size: 13px; padding: 0px;">
+<li style="padding: 0px; margin: 0px;">UCD_JTI_ORU_01 - Operatore: Recupero ID Utente;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_ORP_01 - Operatore: Recupero Password;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_AUO_01 - Autenticazione Operatore;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_OMA_01 - Operatore: Modifica Account;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_OCP_01 - Operatore: Cambia Password;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_OPL_01 - Operatore: Logout;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_OCG_01 - Operatore:&nbsp;Configurazione Guidata;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_OMV_01 - Operatore:&nbsp;Modifica Vendite;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_OVB_01 - Operatore:&nbsp;Validazione Biglietti;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_OPR_01 - Operatore:&nbsp;Reportistica.</li>
+</ul>
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><em>- AREA UTENTE<span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;</span></em></p>
+<ul style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; font-size: 13px; padding: 0px;">
+<li style="padding: 0px; margin: 0px;">UCD_JTI_REU_01 - Registrazione Utente;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_URU_01 - Utente: Recupero ID Utente<span style="font-family: 'Times New Roman'; font-size: small; padding: 0px; margin: 0px;">;</span></li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_URP_01 - Utente: Recupero Password;<span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;</span></li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_AUU_01 - Autenticazione Utente;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_UMA_02 - Utente: Modifica Account;<span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;&nbsp;</span></li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_UCP_03 - Utente: Cambia Password;<span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;&nbsp;</span></li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_UTL_04 - Utente: Logout;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_USB_01 - Utente: Selezione Biglietto;</li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_CAB_05 - Carrello: Acquisto Biglietto;<span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;&nbsp;</span></li>
+<li style="padding: 0px; margin: 0px;">UCD_JTI_NSB_06 - Nuova Selezione Biglietto.<span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;</span></li>
+</ul>
+        </section>
+    </body>
+</document>

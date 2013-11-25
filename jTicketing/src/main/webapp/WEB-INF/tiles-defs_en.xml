@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/tiles-config_1_3.dtd">
+
+<tiles-definitions>
+	<definition name=".mainLayout" path="/framework/body.jsp">
+		<put name="header" value="/framework/header.jsp" />
+		<put name="footer" value="/framework/footer.jsp" />
+		<put name="container" value=".container" />
+		<put name="page" value=".page" />
+		<put name="menu" value=".mainMenu" />
+		<put name="search" value=".searchForm" />
+		<put name="titleBar" value=".titleBar" />
+		<putList name="navLabels">
+			<add value="Home" />
+			<add value="Cart" />
+		</putList>
+		<putList name="navLinks">
+			<add value="home.do" />
+			<add value="processCart.do" />
+		</putList>
+	</definition>
+
+	<definition name=".backendLayoutOperatore" path="/framework/body.jsp">
+		<put name="header" value="/framework/header.jsp" />
+		<put name="footer" value="/framework/footer.jsp" />
+		<put name="container" value=".container" />
+		<put name="page" value=".page" />
+		<put name="menu" value=".mainMenu" />
+		<put name="search" value=".searchForm" />
+		<put name="titleBar" value=".titleBar" />
+		<putList name="navLabels">
+			<add value="Home" />
+			<add value="Configuration wizard" />
+			<add value="Sales change" />
+			<add value="Managing box office" /> <!-- Aggiunto tab per la promozione da utente registrato a botteghnino -->
+			<add value="Validation tickets" />
+			<add value="Reporting" />
+		</putList>
+		<putList name="navLinks">
+			<add value="homeBackendOperatore.do" />
+			<add value="processLuoghiInteresseWizard.do?dispatch=get" />
+			<add value="processModificaVenditeStep1.do?dispatch=get" />
+			<add value="processGestioneBotteghini.do?dispatch=get" /> <!-- da modificare da operatore a botteghino -->
+			<add value="processValidazioneTicket.do?dispatch=get" />
+			<add value="processReportisticaOperatoreStep1.do?dispatch=get" />
+		</putList>
+	</definition>
+
+ <!-- INIZIO CREAZIONE PAGINA PER BOTTEGHINO -->	
+		<definition name=".backendLayoutBotteghino" path="/framework/body.jsp">
+		<put name="header" value="/framework/header.jsp" />
+		<put name="footer" value="/framework/footer.jsp" />
+		<put name="container" value=".container" />
+		<put name="page" value=".page" />
+		<put name="menu" value=".mainMenu" />
+		<put name="search" value=".searchForm" />
+		<put name="titleBar" value=".titleBar" />
+		<putList name="navLabels">
+			 <add value="Home" />
+			 <add value="Interest Places" />
+		</putList>
+		<putList name="navLinks">
+		    <add value="homeBackendBotteghino.do" /> 
+			<add value="processCercaLuoghiInteresseBotteghino.do?dispatch=get" />
+		</putList>
+	</definition>
+<!-- FINE CREAZIONE PAGINA PER BOTTEGHINO -->
+
+	<definition name=".backendLayoutAdmin" path="/framework/body.jsp">
+		<put name="header" value="/framework/header.jsp" />
+		<put name="footer" value="/framework/footer.jsp" />
+		<put name="container" value=".container" />
+		<put name="page" value=".page" />
+		<put name="menu" value=".mainMenu" />
+		<put name="search" value=".searchForm" />
+		<put name="titleBar" value=".titleBar" />
+		<putList name="navLabels">
+			<add value="Home" />
+			<add value="Operator management" />
+			<add value="Reporting" />
+            <add value="Config" />
+		</putList>
+		<putList name="navLabelsWithLuoghiInteresse">
+			<add value="Home" />
+			<add value="Operator management" />
+			<add value="Managing Interest Places" />
+			<add value="Reporting" />
+            <add value="Config" />
+		</putList>
+        <putList name="navLinks">
+			<add value="homeBackendAdmin.do" />
+			<add value="processGestioneOperatori.do?dispatch=get" />
+			<add value="processReportisticaAdminStep1.do?dispatch=get" />
+            <add value="processConfigurazioneSIAE.do?dispatch=get" />
+		</putList>
+		<putList name="navLinksWithLuoghiInteresse">
+			<add value="homeBackendAdmin.do" />
+			<add value="processGestioneOperatori.do?dispatch=get" />
+			<add value="processGestioneLuoghiInteresseStep1.do?dispatch=get" />
+			<add value="processReportisticaAdminStep1.do?dispatch=get" />
+            <add value="processConfigurazioneSIAE.do?dispatch=get" />
+		</putList>
+   	</definition>
+
+	<definition name=".page" path="/framework/page.jsp" />
+	<definition name=".pageBackend" path="/myDesktop/framework/page.jsp" />
+	<definition name=".container" path="/framework/container.jsp" />
+	<definition name=".titleBar" path="/framework/titlebar.jsp" />
+	<definition name=".mainMenu" path="/framework/horizontalmenu.jsp" />
+	
+	<definition name="homePage" extends=".mainLayout">
+		<put name="currentTab" value="Home" />
+		<put name="pageBody" value="/pages/home.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="login" extends=".mainLayout">
+		<put name="currentTab" value="login" />
+		<put name="pageBody" value="/login.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	<definition name="register" extends=".mainLayout">
+		<put name="currentTab" value="register" />
+		<put name="pageBody" value="/pages/register/register.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	<definition name="updateProfile" extends=".mainLayout">
+		<put name="currentTab" value="updateProfile" />
+		<put name="pageBody" value="/pages/profile/updateProfile.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	<definition name="updatePassword" extends=".mainLayout">
+		<put name="currentTab" value="updatePassword" />
+		<put name="pageBody" value="/pages/profile/updatePassword.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	<definition name="forgotUserid" extends=".mainLayout">
+		<put name="currentTab" value="forgotUserid" />
+		<put name="pageBody" value="/pages/forgot/forgotUserid.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	<definition name="forgotPassword" extends=".mainLayout">
+		<put name="currentTab" value="forgotPassword" />
+		<put name="pageBody" value="/pages/forgot/forgotPassword.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	<definition name="activateAccount" extends=".mainLayout">
+		<put name="currentTab" value="activateAccount" />
+		<put name="pageBody" value="/pages/register/activateAccount.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="searchDetailResults" extends=".mainLayout">
+		<put name="currentTab" value="searchResults" />
+		<put name="pageBody" value="/pages/search/searchDetail.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="searchDetailResultsBoxOffice" extends=".mainLayout">
+		<put name="currentTab" value="searchResults" />
+		<put name="pageBody" value="/pages/search/searchDetailBoxOffice.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	<definition name="ticketCalendar" extends=".mainLayout">
+		<put name="currentTab" value="searchResults" />
+		<put name="pageBody" value="/pages/calendar/calendar.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="ticketCalendarBoxOffice" extends=".mainLayout">
+		<put name="currentTab" value="searchResults" />
+		<put name="pageBody" value="/pages/calendar/calendarBoxOffice.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	<definition name="ticketBuy" extends=".mainLayout">
+		<put name="currentTab" value="searchResults" />
+		<put name="pageBody" value="/pages/buy/buyTicket.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="ticketBuyBoxOffice" extends=".mainLayout">
+		<put name="currentTab" value="searchResults" />
+		<put name="pageBody" value="/pages/buy/buyTicketBoxOffice.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="cart" extends=".mainLayout">
+		<put name="currentTab" value="cart" />
+		<put name="pageBody" value="/pages/buy/cart.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="purchaseCompleted" extends=".mainLayout">
+		<put name="currentTab" value="searchResults" />
+		<put name="pageBody" value="/pages/buy/purchaseCompleted.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	<definition name="homeBackendOperatore" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Creazione guidata" />
+		<put name="pageBody" value="/pages/backend/homeOperatore.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="homeBackendBotteghino" extends=".backendLayoutBotteghino">
+		<put name="currentTab" value="Creazione guidata" />
+		<put name="pageBody" value="/pages/backend/homeBotteghino.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	<definition name="luoghiInteresseWizard" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Creazione guidata" />
+		<put name="pageBody" value="/pages/backend/luoghiInteresseWizard.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	<definition name="wizardStart" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Creazione guidata" />
+		<put name="pageBody" value="/pages/backend/wizardStart.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	<definition name="wizardStep1" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Creazione guidata" />
+		<put name="pageBody" value="/pages/backend/wizardStep1.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	<definition name="wizardStep2" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Creazione guidata" />
+		<put name="pageBody" value="/pages/backend/wizardStep2.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	<definition name="wizardStep3" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Creazione guidata" />
+		<put name="pageBody" value="/pages/backend/wizardStep3.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	<definition name="wizardStep4" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Creazione guidata" />
+		<put name="pageBody" value="/pages/backend/wizardStep4.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="modificaVenditeStep1" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Modifica vendite" />
+		<put name="pageBody" value="/pages/backend/modificaVenditeStep1.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="modificaVenditeStep2" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Modifica vendite" />
+		<put name="pageBody" value="/pages/backend/modificaVenditeStep2.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="modificaVenditeStep3" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Modifica vendite" />
+		<put name="pageBody" value="/pages/backend/modificaVenditeStep3.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="modificaVenditeCategorie" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Modifica vendite" />
+		<put name="pageBody" value="/pages/backend/modificaVenditeCategorie.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="modificaVenditeTurni" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Modifica vendite" />
+		<put name="pageBody" value="/pages/backend/modificaVenditeTurni.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="modificaVenditeTickets" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Modifica vendite" />
+		<put name="pageBody" value="/pages/backend/modificaVenditeTickets.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="ticketValidation" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Validazione biglietti" />
+		<put name="pageBody" value="/pages/backend/validazioneTickets.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	<definition name="reportisticaOperatoreStep1" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Reportistica" />
+		<put name="pageBody" value="/pages/backend/reportisticaOperatoreStep1.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="reportisticaOperatoreStep2" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Reportistica" />
+		<put name="pageBody" value="/pages/backend/reportisticaOperatoreStep2.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="reportisticaOperatoreStep3" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Reportistica" />
+		<put name="pageBody" value="/pages/backend/reportisticaOperatoreStep3.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="reportisticaAdminStep1" extends=".backendLayoutAdmin">
+		<put name="currentTab" value="Reportistica" />
+		<put name="pageBody" value="/pages/backend/reportisticaAdminStep1.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="reportisticaAdminStep2" extends=".backendLayoutAdmin">
+		<put name="currentTab" value="Reportistica" />
+		<put name="pageBody" value="/pages/backend/reportisticaAdminStep2.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="reportisticaAdminStep3" extends=".backendLayoutAdmin">
+		<put name="currentTab" value="Reportistica" />
+		<put name="pageBody" value="/pages/backend/reportisticaAdminStep3.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	<definition name="homeBackendAdmin" extends=".backendLayoutAdmin">
+		<put name="currentTab" value="Amministrator" />
+		<put name="pageBody" value="/pages/backend/homeAdmin.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="gestioneOperatori" extends=".backendLayoutAdmin">
+		<put name="currentTab" value="Gestione operatori" />
+		<put name="pageBody" value="/pages/backend/gestioneOperatori.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="gestioneBotteghini" extends=".backendLayoutOperatore">
+		<put name="currentTab" value="Gestione botteghini" />
+		<put name="pageBody" value="/pages/backend/gestioneBotteghini.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="gestioneLuoghiInteresseStep1" extends=".backendLayoutAdmin">
+		<put name="currentTab" value="Gestione luoghi d'interesse" />
+		<put name="pageBody" value="/pages/backend/gestioneLuoghiInteresseStep1.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="gestioneLuoghiInteresseStep2" extends=".backendLayoutAdmin">
+		<put name="currentTab" value="Gestione luoghi d'interesse" />
+		<put name="pageBody" value="/pages/backend/gestioneLuoghiInteresseStep2.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="gestioneLuoghiInteresseStep3" extends=".backendLayoutAdmin">
+		<put name="currentTab" value="Gestione luoghi d'interesse" />
+		<put name="pageBody" value="/pages/backend/gestioneLuoghiInteresseStep1.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="gestioneLuoghiInteresseNew" extends=".backendLayoutAdmin">
+		<put name="currentTab" value="Gestione luoghi d'interesse" />
+		<put name="pageBody" value="/pages/backend/gestioneLuoghiInteresseNew.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+	
+	<definition name="cercaLuoghiInteresseBotteghino" extends=".backendLayoutBotteghino">
+		<put name="currentTab" value="Luoghi Interesse" />
+		<put name="pageBody" value="/pages/backend/cercaLuoghiInteresseBotteghino.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+    <definition name="configurazioneSIAE" extends=".backendLayoutAdmin">
+		<put name="currentTab" value="Configurazione SIAE" />
+		<put name="pageBody" value="/pages/backend/configurazioneSIAE.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+    <definition name="configurazioneSIAEStep1" extends=".backendLayoutAdmin">
+		<put name="currentTab" value="Configurazione SIAE" />
+		<put name="pageBody" value="/pages/backend/configurazioneSIAEStep1.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+    <definition name="configurazioneSIAEMod" extends=".backendLayoutAdmin">
+		<put name="currentTab" value="Configurazione SIAE" />
+		<put name="pageBody" value="/pages/backend/configurazioneSIAEMod.jsp" />
+		<put name="showMenu" value="true" />
+	</definition>
+
+	
+</tiles-definitions>

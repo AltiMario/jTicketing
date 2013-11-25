@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="jTicketing">
+ <bannerLeft>
+    <name>Maven</name>
+    <src>http://maven.apache.org/images/apache-maven-project.png</src>
+    <href>http://maven.apache.org/</href>
+  </bannerLeft>
+  <bannerRight>
+    <name>jTicketing</name>
+    <src>./images/Logo_jticketing.png</src>
+    <href>http://www.jticketing.com/</href>
+  </bannerRight>
+  <body>
+    <links>
+      <item name="jTicketing" href="http://www.jTicketing.com/" />
+    </links>
+    <menu name="Documentazione">
+      <item name="Home" href="index.html"/>
+      <item name="Sommario" href="summary.html"/>
+      <item name="Introduzione" href="introduction.html"/>
+      <item name="Funzionalità" href="functionality.html"/>
+      <item name="Definizione dei Requisiti" href="definition_of_requirements.html"/>
+      <item name="Casi di uso" href="use_cases.html"/>
+      <item name="Struttura dei Casi di uso" href="structure_of_use_cases.html"/>
+      <item name="Matrice Requisiti e Casi di uso" href="matrix_requirements_and_use_cases.html"/>
+      <item name="Vista dei Casi di uso" href="view_of_use_cases.html"/>
+      <item name="Attori dei Casi di uso" href="actors_of_the_use_cases.html"/>
+      <item name="Analisi dei Casi di uso" href="analysis_of_use_cases.html"/>
+      <item name="Area Amministratore " href="administrator_area.html"/>
+      <item name="Area Operatore" href="operator_area.html"/>
+      <item name="Area Utente" href="user_area.html"/>
+
+
+    </menu>
+    </body>
+</project>

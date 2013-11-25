@@ -1,0 +1,54 @@
+.loading-indicator {
+    font-size:8pt;
+	width:156px;
+	height: 54px;
+	padding: 5px 5px 5px 5px;
+}
+#loading{
+	position:absolute;
+	left:43%;
+	top:45%;
+	padding:2px;
+	text-align:center;
+	z-index:13999;
+}
+#loading .loading-indicator{
+	padding:10px;
+	margin:0;
+	font-family: tahoma, arial, helvetica;
+	font-size: 13px;
+	font-weight: bold;
+	color: #66FF33;
+	background-image: url(../../images/loading_mask.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#loading-mask{
+	width:100%;height:100%;position:absolute;z-index:13998;left:0;top:0;
+}
+
+
+.x-window-plain .x-window-body {
+    padding: 0 0 10px 0;
+}
+
+#loginPanel,#registerPanel{
+    margin: 10px 10px 0 15px;
+}
+
+/* fix combo lists from hiding under dialogs and masks */
+.x-combo-list{
+    z-index: 35000;
+}
+
+#loading-msg {
+	font-family: arial, tahoma, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #66FF00;
+	padding: 0 0 0 15px;
+
+    }

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Introduzione</title>
+    </properties>
+    <meta name="keyword" content="Java Enterpise Ticketing and Box Office"/>
+    <body>
+        <section name="Introduzione">
+       <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><strong><em><span style="font-size: medium; padding: 0px; margin: 0px;">Scopo</span></em></strong></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Scopo del presente documento è analizzare le singole funzionalità che compongono i servizi di "jTicketing" e che soddisfano i requisiti richiesti.</span></span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;"><em><strong>Destinatari</strong></em></span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">I Destinatari del documento sono i seguenti:</span></p>
+<ul style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; font-size: 13px; padding: 0px;">
+<li style="list-style-type: disc; font-size: 8pt; font-family: Verdana; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Analisti Funzionali</span></span></li>
+<li style="list-style-type: disc; font-size: 8pt; font-family: Verdana; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Programmatori</span></span></li>
+</ul>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><br style="padding: 0px; margin: 0px;" /><em><span style="font-size: medium; padding: 0px; margin: 0px;"><strong>Acronimi e sigle</strong></span></em></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Il seguente elenco riporta gli acronimi utilizzati nel documento:</span></span></p>
+<table style="margin: 0px 0px 0.75em; border-collapse: collapse; width: 1052px; border-top-width: 1px; border-top-color: #d4dce8; border-bottom-width: 1px; border-bottom-color: #d4dce8; padding: 0px;"><colgroup style="padding: 0px; margin: 0px;"><col style="padding: 0px; margin: 0px;" width="118" /><col style="padding: 0px; margin: 0px;" width="530" /></colgroup>
+<tbody style="padding: 0px; margin: 0px;">
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">SIGLA</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">DEFINIZIONE</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">JTI</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">jTicketing</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">SC</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Servlet Container</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">DB</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Database</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">J2EE</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Java 2 Enterprise Edition</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">CAS</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Central Authentication Service</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">ANP</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Area Naturale Protetta</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UML</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Unified Modeling Language</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Use Case Diagram</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><br style="padding: 0px; margin: 0px;" /><em><span style="font-size: medium; padding: 0px; margin: 0px;"><strong>Tecnologia</strong></span></em></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Si riportano di seguito le tecnologie ed i linguaggi utilizzati, organizzati per tipo di servizio e per strati applicativi:</span></span></p>
+<ol style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; padding: 0px;">
+<li style="list-style-type: decimal; font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: italic; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Java</span></p>
+</li>
+<li style="list-style-type: decimal; font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: italic; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Hibernate</span></p>
+</li>
+<li style="list-style-type: decimal; font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: italic; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">JPA</span></p>
+</li>
+<li style="list-style-type: decimal; font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: italic; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Struts <br /></span></p>
+</li>
+<li style="list-style-type: decimal; font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: italic; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Spring</span></p>
+</li>
+<li style="list-style-type: decimal; font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: italic; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">CAS</span></p>
+</li>
+<li style="list-style-type: decimal; font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: italic; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Maven</span></p>
+</li>
+</ol>
+        </section>
+    </body>
+</document>

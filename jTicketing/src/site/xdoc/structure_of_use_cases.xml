@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Struttura dei Casi di uso </title>
+    </properties>
+    <meta name="keyword" content="Java Enterpise Ticketing and Box Office"/>
+    <body>
+        <section name="Struttura dei Casi di uso ">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">I casi d'uso rappresentano, conformemente allo standard UML 2.1, le funzionalità dell'applicativo "jTicketing" ciascuna di esse è univocamente individuata e tracciabile in quanto codificata in maniera univoca.</span></p>
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Ogni caso d'uso è descritto nel dettaglio e per ciascuno sono indicati:</span></span></p>
+<ul style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; font-size: 13px; padding: 0px;">
+<li style="list-style-type: disc; font-size: 10pt; font-family: Verdana; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Codice;</span></span></p>
+</li>
+<li style="list-style-type: disc; font-size: 10pt; font-family: Verdana; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Nome;</span></span></p>
+</li>
+<li style="list-style-type: disc; font-size: 10pt; font-family: Verdana; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Descrizione;</span></span></p>
+</li>
+<li style="list-style-type: disc; font-size: 10pt; font-family: Verdana; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Attori;</span></span></p>
+</li>
+<li style="list-style-type: disc; font-size: 10pt; font-family: Verdana; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Precondizioni;</span></span></p>
+</li>
+<li style="list-style-type: disc; font-size: 10pt; font-family: Verdana; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Steps;</span></span></p>
+</li>
+<li style="list-style-type: disc; font-size: 10pt; font-family: Verdana; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Varianti.</span></li>
+</ul>
+ </section>
+    </body>
+</document>

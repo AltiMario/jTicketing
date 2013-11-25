@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Analisi dei Casi d'uso</title>
+    </properties>
+    <meta name="keyword" content="Java Enterpise Ticketing and Box Office"/>
+    <body>
+        <section name="Analisi dei Casi d'uso">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;">L'Analisi dei casi d'uso dell'applicativo jTicketing è così; suddivisa:</p>
+<ul style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; font-size: 16px; padding: 0px;">
+<li style="padding: 0px; margin: 0px;">Area Amministratore;</li>
+<li style="padding: 0px; margin: 0px;">Area Operatore;</li>
+<li style="padding: 0px; margin: 0px;">Area Utente.</li>
+</ul>
+ </section>
+    </body>
+</document>

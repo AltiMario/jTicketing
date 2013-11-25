@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Definizione dei Requisiti</title>
+    </properties>
+    <meta name="keyword" content="Java Enterpise Ticketing and Box Office"/>
+    <body>
+        <section name="Definizione dei Requisiti">
+
+      <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><em><span style="font-size: medium; padding: 0px; margin: 0px;"><strong>Requisiti Funzionali</strong></span></em></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Di seguito viene riportato lo schema di esposizione e codifica:</span></span></p>
+<table style="margin: 0px 0px 0.75em; border-collapse: collapse; width: 1052px; border-top-width: 1px; border-top-color: #d4dce8; border-bottom-width: 1px; border-bottom-color: #d4dce8; padding: 0px;"><colgroup style="padding: 0px; margin: 0px;"><col style="padding: 0px; margin: 0px;" width="94" /><col style="padding: 0px; margin: 0px;" width="484" /></colgroup>
+<tbody style="padding: 0px; margin: 0px;">
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Progr.</span></span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Riporta un codice costituito in base alla seguente regola di nomenclatura:</span></span></p>
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">REQ-JTI-X, dove:</span></span></p>
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">REQ - prefisso per "Requisito"</span></span></p>
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">JTI - prefisso per "jTicketing"</span></span></p>
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">X - progressivo numerico</span></span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Funzionalità</span></span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Riporta il nome della funzionalità</span></span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Descrizione</span></span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">Riporta la descrizione della funzionalità</span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><br style="padding: 0px; margin: 0px;" /><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;</span></p>
+<table style="margin: 0px 0px 0.75em; border-collapse: collapse; width: 1052px; border-top-width: 1px; border-top-color: #d4dce8; border-bottom-width: 1px; border-bottom-color: #d4dce8; padding: 0px;"><colgroup style="padding: 0px; margin: 0px;"><col style="padding: 0px; margin: 0px;" width="138" /><col style="padding: 0px; margin: 0px;" width="266" /><col style="padding: 0px; margin: 0px;" width="254" /></colgroup>
+<tbody style="padding: 0px; margin: 0px;">
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; background-color: #000080; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ffffff; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Progr.</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; background-color: #000080; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ffffff; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Funzionalità</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; background-color: #000080; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ffffff; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Descrizione</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; background-color: #dbe5f1; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">AREA AMMINISTRATORE</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; background-color: #dbe5f1; margin: 0px; border: 1px dotted #aaaaaa;"><span style="font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;</span></td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; background-color: #dbe5f1; margin: 0px; border: 1px dotted #aaaaaa;"><span style="font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;</span></td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -01</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Autenticazione Amministratore</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di autenticarsi all'applicativo "jTicketing".</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -02</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Amministratore: Modifica Account</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di effettuare la modifica dei dati personali.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -03</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Amministratore: Cambia Password</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di effettuare la modifica della propria password.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -04</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Amministratore: Logout</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di uscire dall'applicativo "jTicketing".</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -05</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Gestione Operatori: Promozione Privilegio Operatore</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di nominare un nuovo Operatore, associando un luogo di interesse ad un utente registrato.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -06</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Gestione Operatori: Revoca Privilegio Operatore</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di revocare un Operatore, eliminando i privilegi precedentemente associati.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -07</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Gestione Luoghi di Interesse: Inserimento Luogo di Interesse</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di inserire un nuovo Luogo di Interesse.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -08</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Gestione Luoghi di Interesse: Modifica Luogo di Interesse</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di modificare i dati di un Luogo di Interesse precedentemente inserito.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -09</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Gestione Luoghi di Interesse: Eliminazione Luogo di Interesse</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di eliminare un Luogo di Interesse precedentemente inserito.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -10</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Amministratore: Reportistica</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di visualizzare i dati statistici relativi ai biglietti acquistati per ogni singolo Luogo di Interesse inserito.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; background-color: #dbe5f1; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">AREA OPERATORE</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; background-color: #dbe5f1; margin: 0px; border: 1px dotted #aaaaaa;"><span style="font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;</span></td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; background-color: #dbe5f1; margin: 0px; border: 1px dotted #aaaaaa;"><span style="font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;</span></td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -11</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Operatore: Recupero ID Utente</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Operatore di recuperare la "ID Utente" smarrita, per accedere all'applicativo "jTicketing".</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -12</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Operatore: Recupero Password</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Operatore di recuperare la "Password" smarrita, per accedere all'applicativo "jTicketing".</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -13</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Autenticazione Operatore</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Operatore di autenticarsi all'applicativo "jTicketing".</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -14</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Operatore: Modifica Account</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Operatore di effettuare la modifica dei dati personali.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -15</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Operatore: Cambia Password</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Operatore di effettuare la modifica della propria password.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -16</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Operatore: Logout</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Operatore di uscire dall'applicativo "jTicketing".</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -17</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Configurazione Guidata</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Operatore di inserire eventi, tramite la configurazione delle impostazioni relative a: categorie, turni, biglietti e &nbsp;calendario dei biglietti.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -18</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Modifica Vendite</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Operatore di modificare i dati di un evento inserito.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -19</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Validazione Biglietti</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Operatore di validare un biglietto acquistato da un Utente registrato.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -20</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Operatore: Reportistica</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Operatore di visualizzare i dati statistici relativi ai biglietti acquistati per ogni singolo Luogo di Interesse di sua competenza.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; background-color: #dbe5f1; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">AREA UTENTE</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; background-color: #dbe5f1; margin: 0px; border: 1px dotted #aaaaaa;"><span style="font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;</span></td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; background-color: #dbe5f1; margin: 0px; border: 1px dotted #aaaaaa;"><span style="font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;</span></td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -21</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Registrazione Utente</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Utente di registrarsi all'applicativo "jTicketing".</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -22</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Utente: Recupero ID Utente</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Utente registrato di recuperare la "ID Utente" smarrita, per accedere all'applicativo "jTicketing".</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -23</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Utente: Recupero Password</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Utente registrato di recuperare la "Password" smarrita, per accedere all'applicativo "jTicketing".</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -24</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Autenticazione Utente</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Utente registrato di autenticarsi all'applicativo "jTicketing".</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -25</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Utente: Modifica Account</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Utente registrato di effettuare la modifica dei dati personali.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -26</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Utente: Cambia Password</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Utente registrato di effettuare la modifica della propria password.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -27</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Utente: Logout</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Utente registrato di uscire dall'applicativo "jTicketing".</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -28</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Utente: Selezione Biglietto</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente ad un Utente (registrato o non registrato) di selezionare i biglietti relativi agli eventi che desidera acquistare.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -29</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Carrello: Acquisto Biglietto</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente all'Utente registrato di completare l'acquisto dei biglietti selezionati ed inseriti nel carrello.</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ- JTI -30</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Nuova Selezione Biglietto</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 7px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">La funzionalità consente ad un Utente (registrato o non registrato) di effettuare una nuova selezione dei biglietti relativi agli eventi che desidera acquistare</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+        </section>
+           </body>
+       </document>

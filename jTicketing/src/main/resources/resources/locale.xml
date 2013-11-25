@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  jTicketing is a highly configurable solution for the management of online booking, electronic ticket and box office.
+
+  Copyright (C) 2010-2012 OpenPRJ s.r.l.
+  All rights reserved
+
+  Site: http://www.openprj.it
+  Contact:  info@openprj.it
+  -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basename">
+			<value>resources/MessageResources</value>
+		</property>
+	</bean>
+
+</beans>

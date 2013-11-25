@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"  "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+     <!-- Bean utilizzati dalle varie action -->
+	<form-beans>
+		<form-bean name="ticketSearchForm" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="ticketSearchForm" type="java.lang.String" />
+		</form-bean>
+		<form-bean name="ticketSearchBoxOfficeForm" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="ticketSearchBoxOfficeForm" type="java.lang.String" />
+		</form-bean>
+		<form-bean name="ticketBuyForm" type="it.openprj.jTicketing.frontend.forms.CartForm" />
+		<form-bean name="ticketBuyBoxOfficeForm" type="it.openprj.jTicketing.frontend.forms.CartFormBoxOffice" />
+		<form-bean name="luogoInteresseForm" type="org.apache.struts.action.DynaActionForm">
+		   <form-property name="selLuogoInteresse" type="java.lang.String" />
+		   <form-property name="btnAvanti" type="java.lang.String" />
+		</form-bean>
+		<form-bean name="wizardStep0Form" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="categoria" type="java.lang.String" />
+			<form-property name="uid" type="java.lang.String" />
+			<form-property name="prezzo" type="java.lang.String" />
+			<form-property name="condizioni" type="java.lang.String" />
+            <form-property name="btnAvanti" type="java.lang.String" />
+			<form-property name="btnAdd" type="java.lang.String" />
+			<form-property name="btnRemove" type="java.lang.String" />
+		</form-bean>
+		<form-bean name="wizardStep1Form" type="org.apache.struts.action.DynaActionForm">
+	    	<form-property name="uid" type="java.lang.String" />
+			<form-property name="orario" type="java.lang.String" />
+			<form-property name="orarioApertura" type="java.lang.String" />
+			<form-property name="quantita" type="java.lang.String" />
+			<form-property name="btnAvanti" type="java.lang.String" />
+			<form-property name="btnAdd" type="java.lang.String" />
+			<form-property name="btnRemove" type="java.lang.String" />
+		</form-bean>
+		<form-bean name="wizardStep2Form" type="it.openprj.jTicketing.backend.forms.TicketForm">
+            <form-property name="listaGenereEvento" type=""/>
+        </form-bean>
+        <form-bean name="wizardStep3Form" type="it.openprj.jTicketing.backend.forms.CalendarForm"/>
+        <form-bean name="wizardStep4Form" type="org.apache.struts.action.DynaActionForm"/>
+        <form-bean name="ticketValidationForm" type="org.apache.struts.action.DynaActionForm">        
+		   <form-property name="selLuogoInteresse" type="java.lang.String" />
+		   <form-property name="selTicket" type="java.lang.String" />
+		   <form-property name="btnAvanti" type="java.lang.String" />		
+           <form-property name="codiceDiVerifica" type="java.lang.String" />
+        </form-bean>
+        <form-bean name="modificaVenditeStep1Form" type="org.apache.struts.action.DynaActionForm"/>
+        <form-bean name="modificaVenditeStep2Form" type="org.apache.struts.action.DynaActionForm"/>
+		<form-bean name="modificaVenditeStep3Form" type="org.apache.struts.action.DynaActionForm"/>
+		<form-bean name="modificaVenditeCategorieForm" type="org.apache.struts.action.DynaActionForm"/>
+		<form-bean name="modificaVenditeTurniForm" type="org.apache.struts.action.DynaActionForm"/>
+		<form-bean name="modificaVenditeTicketsForm" type="it.openprj.jTicketing.backend.forms.TicketForm"/>
+		<form-bean name="reportisticaAdminStep1Form" type="org.apache.struts.action.DynaActionForm"/>
+        <form-bean name="reportisticaAdminStep2Form" type="org.apache.struts.action.DynaActionForm"/>
+		<form-bean name="reportisticaAdminStep3Form" type="org.apache.struts.action.DynaActionForm"/>
+		<form-bean name="reportisticaOperatoreStep1Form" type="org.apache.struts.action.DynaActionForm"/>
+        <form-bean name="reportisticaOperatoreStep2Form" type="org.apache.struts.action.DynaActionForm"/>
+		<form-bean name="reportisticaOperatoreStep3Form" type="org.apache.struts.action.DynaActionForm"/>
+		<form-bean name="gestioneOperatoriForm" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="gestioneBotteghiniForm" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="gestioneOperatoriUpdateForm" type="org.apache.struts.action.DynaActionForm"/>
+		<form-bean name="gestioneLuoghiInteresseStep1Form" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="gestioneLuoghiInteresseStep2Form" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="gestioneLuoghiInteresseStep3Form" type="it.openprj.jTicketing.backend.forms.LuogoInteresseForm" />
+		<form-bean name="gestioneLuoghiInteresseNewForm" type="it.openprj.jTicketing.backend.forms.LuogoInteresseForm" />
+		<form-bean name="configurazioneSIAEForm" type="it.openprj.jTicketing.backend.forms.ConfigSIAEForm" />
+        <form-bean name="cercaLuoghiInteresseBotteghinoForm" type="org.apache.struts.action.DynaActionForm" />
+        <form-bean name="cartForm" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="buyBoxOfficeForm" type="it.openprj.jTicketing.frontend.forms.BuyFormBoxOffice" />
+	</form-beans>
+
+	<global-forwards>
+		<forward name="home" path="/home.do" />
+		<forward name="homeBackendAdmin" path="/homeBackendAdmin.do" />
+		<forward name="homeBackendBotteghino" path="/homeBackendBotteghino.do" />
+		<forward name="editHome" path="/editHome.do" />
+		<forward name="prepareLogin" path="/prepareLogin.do" />
+		<forward name="logout" path="/logout.do" />
+		<forward name="toStartWizard" redirect="true" path="/processLuoghiInteresseWizard.do?dispatch=get" />
+	</global-forwards>
+
+	<action-mappings>
+		<action path="/homePage" type="org.apache.struts.actions.ForwardAction" parameter="homePage" />
+		
+		<action path="/home" type="it.openprj.jTicketing.frontend.actions.PrepareHomeAction" scope="session" validate="false">
+			<forward name="success" redirect="false" path="/homePage.do" />
+		</action>
+		
+		<action path="/searchDetailResults" type="org.apache.struts.actions.ForwardAction" parameter="searchDetailResults" />
+		
+		<action path="/processSearchDetail"	type="it.openprj.jTicketing.frontend.actions.ProcessSearchDetailAction" scope="session" 
+				validate="true">
+			<forward name="fail" redirect="true" path="/home.do" />
+			<forward name="success" redirect="true" path="/searchDetailResults.do" />
+		</action>
+		
+		<action path="/searchDetailResultsBoxOffice" type="org.apache.struts.actions.ForwardAction" parameter="searchDetailResultsBoxOffice" />
+		
+		<action path="/processSearchDetailBoxOffice"	type="it.openprj.jTicketing.frontend.actions.ProcessSearchDetailBoxOfficeAction" scope="session" 
+				validate="true">
+			<forward name="fail" redirect="true" path="/home.do" />
+			<forward name="success" redirect="true" path="/ticketCalendarBoxOffice.do" />
+			<!-- <forward name="success" redirect="true" path="/searchDetailResultsBoxOffice.do" /> -->
+		</action>
+		
+		<action path="/processTicketSearch"	type="it.openprj.jTicketing.frontend.actions.ProcessTicketSearchAction"	name="ticketSearchForm" 
+				scope="session" validate="true">
+			<forward name="fail" redirect="true" path="/home.do" />
+			<forward name="success" redirect="true" path="/ticketCalendar.do" />
+		</action>
+		
+		<action path="/processTicketSearchBoxOffice"	type="it.openprj.jTicketing.frontend.actions.ProcessTicketSearchBoxOfficeAction"	name="ticketSearchBoxOfficeForm" 
+				scope="session" validate="true">
+			<forward name="fail" redirect="true" path="/home.do" />
+			<forward name="success" redirect="true" path="/ticketCalendarBoxOffice.do" />
+		</action>
+		
+		<action path="/ticketBuy" type="org.apache.struts.actions.ForwardAction" parameter="ticketBuy" />
+		
+		<action path="/ticketBuyBoxOffice" type="org.apache.struts.actions.ForwardAction" parameter="ticketBuyBoxOffice" />
+		
+		<action path="/cart" type="org.apache.struts.actions.ForwardAction" parameter="cart" />
+				
+		<action path="/processCart" type="it.openprj.jTicketing.frontend.actions.ProcessCartAction"
+				name="cartForm" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/home.do" />
+			<forward name="success" redirect="true" path="/cart.do" />
+		</action>
+					
+		<action path="/processPayment" type="it.openprj.jTicketing.frontend.actions.ProcessPaymentAction" scope="request" 
+				input="/pages/buy/buyTicket.jsp" validate="false">
+			<forward name="AuthorizedPayment" path="/ReturnGateAuthorizedPayment.do" />
+			<forward name="UnauthorizedPayment" path="/ReturnGateUnauthorizedPayment.do" />
+		</action>
+		
+		<action path="/ReturnGateAuthorizedPayment"	type="it.openprj.jTicketing.frontend.actions.ReturnGateAuthorizedPaymentAction"
+				name="ticketBuyForm" scope="session" validate="true">
+			<forward name="purchaseCompleted" redirect="true" path="/purchaseCompleted.do" />
+			<forward name="calendar" redirect="true" path="/ticketCalendarBoxOffice.do" />
+		</action>
+
+		<action path="/ReturnGateUnauthorizedPayment" type="it.openprj.jTicketing.frontend.actions.ReturnGateUnauthorizedPaymentAction"
+				name="ticketBuyForm" scope="session" validate="true">
+			<forward name="purchaseUnauthorized" redirect="true" path="/cart.do" />
+		</action>
+		
+		<action path="/purchaseCompleted" type="org.apache.struts.actions.ForwardAction" parameter="purchaseCompleted" />
+		
+		<action path="/processTicketBuy" type="it.openprj.jTicketing.frontend.actions.ProcessTicketBuyAction"
+				name="ticketBuyForm" scope="session" validate="true">
+			<forward name="fail" redirect="true" path="/home.do" />
+			<forward name="success" redirect="true" path="/ticketBuy.do" />
+			<forward name="forwardToLogin" redirect="true" path="/prepareLogin.do" />
+			<forward name="forwardToCart" redirect="true" path="/cart.do" />
+			<forward name="forwardToSearch" redirect="true" path="/searchDetailResults.do" />		
+			<forward name="change" redirect="true" path="/searchDetailResults.do" />
+			<forward name="purchaseCompleted" redirect="true" path="/purchaseCompleted.do" />
+			<forward name="forwardToPayment" redirect="true" path="/processPayment.do" />
+		</action>
+		
+		<action path="/processTicketBuyBoxOffice" type="it.openprj.jTicketing.frontend.actions.ProcessTicketBuyBoxOfficeAction"
+				name="ticketBuyBoxOfficeForm" scope="session" validate="true">
+			<forward name="fail" redirect="true" path="/home.do" />
+			<forward name="success" redirect="true" path="/ticketBuyBoxOffice.do" />
+			<forward name="forwardToLogin" redirect="true" path="/prepareLogin.do" />
+			<forward name="forwardToCart" redirect="true" path="/ticketCalendarBoxOffice.do" />
+			<forward name="forwardToSearch" redirect="true" path="/searchDetailResultsBoxOffice.do" />		
+			<forward name="change" redirect="true" path="/searchDetailResultsBoxOffice.do" />
+			<forward name="purchaseCompleted" redirect="true" path="/purchaseCompleted.do" />
+			<forward name="forwardToPayment" redirect="true" path="/processPayment.do" />
+			
+		</action>
+		
+		<action path="/ticketCalendar" type="org.apache.struts.actions.ForwardAction" parameter="ticketCalendar" />
+		
+		<action path="/ticketCalendarBoxOffice" type="org.apache.struts.actions.ForwardAction" parameter="ticketCalendarBoxOffice" />
+		
+		<action path="/homeBackendOperatore" type="org.apache.struts.actions.ForwardAction" parameter="homeBackendOperatore" />
+		
+		<action path="/homeBackendBotteghino" type="org.apache.struts.actions.ForwardAction" parameter="homeBackendBotteghino" />
+		
+		<action path="/homeAdmin" type="it.openprj.jTicketing.backend.actions.ProcessHomeAdminAction" scope="session" validate="false">
+			<forward name="success" redirect="true" path="/homeBackendAdmin.do" />
+			<forward name="fail" redirect="true" path="/prepareLogin.do" />
+		</action>
+		
+		<action path="/homeBackendAdmin" type="org.apache.struts.actions.ForwardAction" parameter="homeBackendAdmin" />
+		
+		<action path="/editHome" type="org.apache.struts.actions.ForwardAction" parameter="editHome" />
+		
+		<action path="/processLuoghiInteresseWizard"	type="it.openprj.jTicketing.backend.actions.ProcessWizardLuogoInteresseAction"
+				name="luogoInteresseForm" scope="session" validate="true" input="login.jsp" parameter="dispatch" >
+			<forward name="refresh" redirect="true" path="/luoghiInteresseWizard.do" />
+			<forward name="fail" redirect="true" path="/luoghiInteresseWizard.do" />
+			<forward name="failPrev" redirect="true" path="/homeBackendOperatore.do" />
+			<forward name="success" redirect="true" path="/wizardStart.do" />
+		</action>
+		
+		<action path="/luoghiInteresseWizard" type="org.apache.struts.actions.ForwardAction" parameter="luoghiInteresseWizard" />
+		
+		<action path="/processWizardStart"	type="it.openprj.jTicketing.backend.actions.ProcessWizardStartAction"
+				name="wizardStep0Form" scope="session" validate="false"	input="/pages/backend/wizardStart.jsp" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/wizardStart.do" />
+			<forward name="success" redirect="true" path="/wizardStart.do" />
+		</action>
+		
+		<action path="/wizardStart" type="org.apache.struts.actions.ForwardAction" parameter="wizardStart" />
+		
+		<action path="/processWizardStep1"	type="it.openprj.jTicketing.backend.actions.ProcessWizardStep1Action"
+				name="wizardStep1Form" scope="session" validate="false"	input="/pages/backend/wizardStep1.jsp" parameter="dispatch" >
+			
+			<forward name="fail" redirect="true" path="/wizardStep1.do" />
+			<forward name="failPrev" redirect="true" path="/wizardStart.do" />
+			<forward name="success" redirect="true" path="/wizardStep1.do" />
+		</action>
+		
+		<action path="/wizardStep1" type="org.apache.struts.actions.ForwardAction" parameter="wizardStep1" />
+		
+		<action path="/processWizardStep2"	type="it.openprj.jTicketing.backend.actions.ProcessWizardStep2Action"
+				name="wizardStep2Form" scope="request" validate="false"	input="/pages/backend/wizardStep2.jsp" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/wizardStep2.do" />
+			<forward name="failPrev" redirect="true" path="/wizardStep1.do" />
+			<forward name="success" redirect="true" path="/wizardStep2.do" />
+		</action>
+		
+		<action path="/wizardStep2" type="org.apache.struts.actions.ForwardAction" parameter="wizardStep2" />
+		
+		<action path="/processWizardStep3"	type="it.openprj.jTicketing.backend.actions.ProcessWizardStep3Action"
+				name="wizardStep3Form" scope="session" validate="true"	input="/pages/backend/wizardStep3.jsp" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/wizardStep3.do" />
+			<forward name="failPrev" redirect="true" path="/wizardStep2.do" />
+			<forward name="success" redirect="true" path="/wizardStep3.do" />
+			<forward name="nextStep" redirect="true" path="/processWizardStep4.do" />
+		</action>
+		
+		<action path="/wizardStep3" type="org.apache.struts.actions.ForwardAction" parameter="wizardStep3" />
+		
+		<action path="/processWizardStep4"	type="it.openprj.jTicketing.backend.actions.ProcessWizardStep4Action"
+				name="wizardStep4Form" scope="session" validate="true"	input="/pages/backend/wizardStep4.jsp" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/wizardStep4.do" />
+			<forward name="failStart" redirect="true" path="/wizardStart.do" />
+			<forward name="failStep1" redirect="true" path="/wizardStep1.do" />
+			<forward name="failStep2" redirect="true" path="/wizardStep2.do" />
+			<forward name="failStep3" redirect="true" path="/wizardStep3.do" />
+			<forward name="success" redirect="true" path="/homeBackendOperatore.do" />
+		</action>
+		
+		<action path="/wizardStep4" type="org.apache.struts.actions.ForwardAction" parameter="wizardStep4" />
+		
+		<action path="/processModificaVenditeStep1"	type="it.openprj.jTicketing.backend.actions.ProcessModificaVenditeStep1Action"
+				name="modificaVenditeStep1Form" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendOperatore.do" />
+			<forward name="success" redirect="true" path="/modificaVenditeStep1.do" />
+		</action>
+		
+		<action path="/modificaVenditeStep1" type="org.apache.struts.actions.ForwardAction" parameter="modificaVenditeStep1" />
+		
+		<action path="/processModificaVenditeStep2" type="it.openprj.jTicketing.backend.actions.ProcessModificaVenditeStep2Action"
+				name="modificaVenditeStep2Form" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendOperatore.do" />
+			<forward name="success" redirect="true" path="/modificaVenditeStep2.do?dispatch=get" />
+		</action>
+		
+		<action path="/modificaVenditeStep2" type="org.apache.struts.actions.ForwardAction" parameter="modificaVenditeStep2" />
+		
+		<action path="/processModificaVenditeStep3" type="it.openprj.jTicketing.backend.actions.ProcessModificaVenditeStep3Action"
+				name="modificaVenditeStep3Form" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendOperatore.do" />
+			<forward name="success" redirect="true" path="/modificaVenditeStep3.do?dispatch=get" />
+		</action>
+		
+		<action path="/modificaVenditeStep3" type="org.apache.struts.actions.ForwardAction" parameter="modificaVenditeStep3" />
+		
+		<action path="/processModificaVenditeCategorie" type="it.openprj.jTicketing.backend.actions.ProcessModificaVenditeCategorieAction"
+				name="modificaVenditeCategorieForm" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendOperatore.do" />
+			<forward name="success" redirect="true" path="/modificaVenditeCategorie.do?dispatch=get" />
+		</action>
+		
+		<action path="/modificaVenditeCategorie" type="org.apache.struts.actions.ForwardAction" parameter="modificaVenditeCategorie" />
+		
+		<action path="/processModificaVenditeTurni" type="it.openprj.jTicketing.backend.actions.ProcessModificaVenditeTurniAction"
+				name="modificaVenditeTurniForm" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendOperatore.do" />
+			<forward name="home" redirect="true" path="/modificaVenditeTurni.do?dispatch=get" />
+			<forward name="success" redirect="true" path="/modificaVenditeTurni.do?dispatch=get" />
+		</action>
+		
+		<action path="/modificaVenditeTurni" type="org.apache.struts.actions.ForwardAction" parameter="modificaVenditeTurni" />
+		
+		<!--  <action path="/processModificaVenditeTickets" type="it.openprj.jTicketing.backend.actions.ProcessModificaVenditeTicketsAction"
+				name="modificaVenditeTicketsForm" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendOperatore.do" />
+			<forward name="success" redirect="true" path="/modificaVenditeTickets.do?dispatch=get" />
+		</action> -->
+		
+		<action path="/processModificaVenditeTickets" type="it.openprj.jTicketing.backend.actions.ProcessModificaVenditeTicketsAction"
+				name="modificaVenditeTicketsForm" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendOperatore.do" />
+			<forward name="success" redirect="true" path="/modificaVenditeTickets.do?dispatch=get" />
+			<forward name="successDel" redirect="true" path="/homeBackendOperatore.do" />
+		</action>
+		
+		<action path="/modificaVenditeTickets" type="org.apache.struts.actions.ForwardAction" parameter="modificaVenditeTickets" />
+		
+		<action path="/processValidazioneTicket" type="it.openprj.jTicketing.backend.actions.ProcessValidazioneTicketAction"
+				name="ticketValidationForm" scope="session" validate="false" parameter="dispatch">
+			<forward name="fail" redirect="true" path="/ticketValidation.do" />
+			<forward name="failPrev" redirect="true" path="/homeBackendOperatore.do" />
+			<forward name="success" redirect="false" path="/ticketValidation.do?dispatch=get" />
+			<forward name="refresh" redirect="false" path="/ticketValidation.do" />
+		</action>
+		
+		<action path="/ticketValidation" type="org.apache.struts.actions.ForwardAction" parameter="ticketValidation" />
+		
+		<action path="/reportisticaOperatoreStep1" type="org.apache.struts.actions.ForwardAction" parameter="reportisticaOperatoreStep1" />
+		
+		<action path="/processReportisticaOperatoreStep1"	type="it.openprj.jTicketing.backend.actions.ProcessReportisticaOperatoreStep1Action"
+				name="reportisticaOperatoreStep1Form" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendOperatore.do" />
+			<forward name="success" redirect="true" path="/reportisticaOperatoreStep1.do" />
+		</action>
+		
+		<action path="/reportisticaOperatoreStep2" type="org.apache.struts.actions.ForwardAction" parameter="reportisticaOperatoreStep2" />
+		
+		<action path="/processReportisticaOperatoreStep2" type="it.openprj.jTicketing.backend.actions.ProcessReportisticaOperatoreStep2Action"
+				name="reportisticaOperatoreStep2Form" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendOperatore.do" />
+			<forward name="success" redirect="true" path="/reportisticaOperatoreStep2.do?dispatch=get" />
+		</action>
+		
+		<action path="/reportisticaOperatoreStep3" type="org.apache.struts.actions.ForwardAction" parameter="reportisticaOperatoreStep3" />
+		
+		<action path="/processReportisticaOperatoreStep3" type="it.openprj.jTicketing.backend.actions.ProcessReportisticaOperatoreStep3Action"
+				name="reportisticaOperatoreStep3Form" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendOperatore.do" />
+			<forward name="success" redirect="true" path="/reportisticaOperatoreStep3.do?dispatch=get" />
+		</action>
+		
+		<action path="/reportisticaAdminStep1" type="org.apache.struts.actions.ForwardAction" parameter="reportisticaAdminStep1" />
+		
+		<action path="/processReportisticaAdminStep1"	type="it.openprj.jTicketing.backend.actions.ProcessReportisticaAdminStep1Action"
+				name="reportisticaAdminStep1Form" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendAdmin.do" />
+			<forward name="success" redirect="true" path="/reportisticaAdminStep1.do" />
+		</action>
+		
+		<action path="/reportisticaAdminStep2" type="org.apache.struts.actions.ForwardAction" parameter="reportisticaAdminStep2" />
+		
+		<action path="/processReportisticaAdminStep2" type="it.openprj.jTicketing.backend.actions.ProcessReportisticaAdminStep2Action"
+				name="reportisticaAdminStep2Form" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendAdmin.do" />
+			<forward name="success" redirect="true" path="/reportisticaAdminStep2.do?dispatch=get" />
+		</action>
+		
+		<action path="/reportisticaAdminStep3" type="org.apache.struts.actions.ForwardAction" parameter="reportisticaAdminStep3" />
+		
+		<action path="/processReportisticaAdminStep3" type="it.openprj.jTicketing.backend.actions.ProcessReportisticaAdminStep3Action"
+				name="reportisticaAdminStep3Form" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendAdmin.do" />
+			<forward name="success" redirect="true" path="/reportisticaAdminStep3.do?dispatch=get" />
+		</action>
+		<!-- controllare qui -->
+		<action path="/gestioneOperatori" type="org.apache.struts.actions.ForwardAction" parameter="gestioneOperatori" />
+		
+		<action path="/processGestioneOperatori"	type="it.openprj.jTicketing.backend.actions.ProcessGestioneOperatoriAction"
+				name="gestioneOperatoriForm" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendAdmin.do" />
+			<forward name="success" redirect="true" path="/gestioneOperatori.do" />
+		</action>
+		
+		<action path="/gestioneBotteghini" type="org.apache.struts.actions.ForwardAction" parameter="gestioneBotteghini" />
+		
+		<action path="/processGestioneBotteghini"	type="it.openprj.jTicketing.backend.actions.ProcessGestioneBotteghiniAction"
+				name="gestioneBotteghiniForm" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendOperatore.do" />
+			<forward name="success" redirect="true" path="/gestioneBotteghini.do" />
+		</action>
+		
+		<action path="/processGestioneOperatoriUpdate"	type="it.openprj.jTicketing.backend.actions.ProcessGestioneOperatoriUpdateAction"
+				name="gestioneOperatoriForm" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendAdmin.do" />
+			<forward name="success" redirect="true" path="/processGestioneOperatori.do?dispatch=get" />
+		</action>
+		
+		<action path="/processGestioneBotteghiniUpdate"	type="it.openprj.jTicketing.backend.actions.ProcessGestioneBotteghiniUpdateAction"
+				name="gestioneBotteghiniForm" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendOperatore.do" />
+			<forward name="success" redirect="true" path="/processGestioneBotteghini.do?dispatch=get" />
+		</action>
+		
+		<action path="/cercaLuoghiInteresseBotteghino" type="org.apache.struts.actions.ForwardAction"
+	parameter="cercaLuoghiInteresseBotteghino" />
+
+	<action path="/processCercaLuoghiInteresseBotteghino"
+		type="it.openprj.jTicketing.backend.actions.ProcessCercaLuoghiInteresseBotteghinoAction"
+		name="cercaLuoghiInteresseBotteghinoForm" scope="session" validate="true"
+		parameter="dispatch">
+		<forward name="fail" redirect="true" path="/homeBackendBotteghino.do" />
+		<forward name="success" redirect="true" path="/cercaLuoghiInteresseBotteghino.do" />
+	</action>
+		
+		<action path="/gestioneLuoghiInteresseStep1" type="org.apache.struts.actions.ForwardAction" parameter="gestioneLuoghiInteresseStep1" />
+		               
+		<action path="/processGestioneLuoghiInteresseStep1"	type="it.openprj.jTicketing.backend.actions.ProcessGestioneLuoghiInteresseStep1Action"
+				name="gestioneLuoghiInteresseStep1Form" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendAdmin.do" />
+			<forward name="success" redirect="true" path="/gestioneLuoghiInteresseStep1.do" />
+		</action>
+		
+		<action path="/gestioneLuoghiInteresseStep2" type="org.apache.struts.actions.ForwardAction" parameter="gestioneLuoghiInteresseStep2" />
+		               
+		<action path="/processGestioneLuoghiInteresseStep2"	type="it.openprj.jTicketing.backend.actions.ProcessGestioneLuoghiInteresseStep2Action"
+				name="gestioneLuoghiInteresseStep2Form" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/homeBackendAdmin.do" />
+			<forward name="success" redirect="true" path="/gestioneLuoghiInteresseStep2.do" />
+		</action>
+		
+		<action path="/gestioneLuoghiInteresseStep3" type="org.apache.struts.actions.ForwardAction" parameter="gestioneLuoghiInteresseStep3" />
+		
+		<action path="/processGestioneLuoghiInteresseStep3" type="it.openprj.jTicketing.backend.actions.ProcessGestioneLuoghiInteresseStep3Action"
+				name="gestioneLuoghiInteresseStep3Form" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/gestioneLuoghiInteresseStep2.do" />
+			<forward name="success" redirect="true" path="/gestioneLuoghiInteresseStep3.do?dispatch=get" />
+		</action>
+		
+		<action path="/gestioneLuoghiInteresseNew" type="org.apache.struts.actions.ForwardAction" parameter="gestioneLuoghiInteresseNew" />
+		
+		<action path="/processGestioneLuoghiInteresseNew" type="it.openprj.jTicketing.backend.actions.ProcessGestioneLuoghiInteresseNewAction"
+				name="gestioneLuoghiInteresseNewForm" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/gestioneLuoghiInteresseNew.do" />
+			<forward name="new" redirect="true" path="/gestioneLuoghiInteresseNew.do" />
+			<forward name="success" redirect="true" path="/gestioneLuoghiInteresseStep1.do" />
+		</action>
+
+        <action path="/configurazioneSIAE" type="org.apache.struts.actions.ForwardAction" parameter="configurazioneSIAE" />
+        <action path="/configurazioneSIAEMod" type="org.apache.struts.actions.ForwardAction" parameter="configurazioneSIAEMod" />
+
+		<action path="/processConfigurazioneSIAE" type="it.openprj.jTicketing.backend.actions.ProcessConfigurazioneSIAEAction"
+				name="configurazioneSIAEForm" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/configurazioneSIAEMod.do" />
+			<forward name="success" redirect="true" path="/configurazioneSIAE.do" />
+		</action>
+
+        <action path="/configurazioneSIAEStep1" type="org.apache.struts.actions.ForwardAction" parameter="configurazioneSIAEStep1" />
+
+		<action path="/processConfigurazioneSIAEStep1" type="it.openprj.jTicketing.backend.actions.ProcessConfigurazioneSIAEStep1Action"
+				name="configurazioneSIAEForm" scope="session" validate="true"  parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/configurazioneSIAE.do" />
+			<forward name="success" redirect="true" path="/configurazioneSIAEStep1.do" />
+
+		</action>
+
+        <action path="/processConfigurazioneSIAEStep2" type="it.openprj.jTicketing.backend.actions.ProcessConfigurazioneSIAEStep2Action"
+				name="configurazioneSIAEForm" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/configurazioneSIAEStep1.do" />
+			<forward name="success" redirect="true" path="/configurazioneSIAE.do?dispatch=get" />
+		</action>
+
+
+
+		<action path="/processConfigurazioneSIAENew" type="it.openprj.jTicketing.backend.actions.ProcessConfigurazioneSIAENewAction"
+				name="configurazioneSIAEForm" scope="session" validate="true" parameter="dispatch" >
+			<forward name="fail" redirect="true" path="/configurazioneSIAEMod.do" />
+			<forward name="new" redirect="true" path="/configurazioneSIAEMod.do" />
+			<forward name="success" redirect="true" path="/configurazioneSIAE.do?dispatch=get" />
+		</action>
+
+    </action-mappings>
+	
+	<controller processorClass="org.apache.struts.tiles.TilesRequestProcessor" />
+    
+	<message-resources parameter="resources.MessageResources" />
+	
+	<plug-in className="org.apache.struts.tiles.TilesPlugin">
+		<set-property property="definitions-config" value="/WEB-INF/tiles-defs_en.xml" />
+        <set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml" />
+    </plug-in>
+	
+	<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		<set-property property="pathnames" value="/org/apache/struts/validator/validator-rules.xml,/WEB-INF/validation.xml" />
+	</plug-in>
+
+</struts-config>

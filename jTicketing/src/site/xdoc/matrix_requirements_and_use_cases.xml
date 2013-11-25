@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Matrice Requisiti e Casi di uso </title>
+    </properties>
+    <meta name="keyword" content="Java Enterpise Ticketing and Box Office"/>
+    <body>
+        <section name="Matrice Requisiti e Casi di uso ">
+
+      <p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: small;"><strong><em><br /></em></strong></span></p>
+<table style="margin: 0px 0px 0.75em; border-collapse: collapse; width: 1052px; border-top-width: 1px; border-top-color: #d4dce8; border-bottom-width: 1px; border-bottom-color: #d4dce8; padding: 0px;"><colgroup style="padding: 0px; margin: 0px;"><col style="padding: 0px; margin: 0px;" width="228" /><col style="padding: 0px; margin: 0px;" width="267" /></colgroup>
+<tbody style="padding: 0px; margin: 0px;">
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: bottom; text-align: left; background-color: #dbe5f1; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: center; padding: 0px;"><span style="font-size: 11pt; font-family: Verdana; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">MATRICE REQUISITI - CASI D'USO</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: bottom; text-align: left; background-color: #dbe5f1; margin: 0px; border: 1px dotted #aaaaaa;"><span style="font-size: 11pt; font-family: Verdana; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;</span></td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: bottom; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 10pt; font-family: Verdana; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Requisito/Funzionalità</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: bottom; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 10pt; font-family: Verdana; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Caso D'uso</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: middle; text-align: left; background-color: #dbe5f1; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">AREA AMMINISTRATORE</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; background-color: #dbe5f1; margin: 0px; border: 1px dotted #aaaaaa;"><span style="font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;</span></td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: middle; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-01</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_AUA_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-02</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_AMA_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-03</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_ACP_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-04</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_AML_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-05</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_PPO_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-06</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_RPO_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-07</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_ILI_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-08</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_MLI_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-09</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_ELI_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-10</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_AMR_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; background-color: #dbe5f1; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">AREA OPERATORE</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; background-color: #dbe5f1; margin: 0px; border: 1px dotted #aaaaaa;"><span style="font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;</span></td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-11</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_ORU_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-12</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_ORP_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-13</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_AUO_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-14</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_OMA_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-15</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_OCP_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-16</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_OPL_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-17</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_OCG_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-18</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_OMV_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-19</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_OVB_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-20</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_OPR_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; background-color: #dbe5f1; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">AREA UTENTE</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; background-color: #dbe5f1; margin: 0px; border: 1px dotted #aaaaaa;"><span style="font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">&nbsp;</span></td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-21</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_REU_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-22</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_URU_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-23</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_URP_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-24</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_AUU_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-25</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_UMA_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-26</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_UCP_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-27</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_UTL_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-28</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_USB_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-29</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_CAB_01</span></p>
+</td>
+</tr>
+<tr style="height: 0px; padding: 0px; margin: 0px;">
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">REQ-JTI-30</span></p>
+</td>
+<td style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; vertical-align: top; text-align: left; margin: 0px; border: 1px dotted #aaaaaa;">
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: justify; padding: 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">UCD_JTI_NSB_01</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+ </section>
+    </body>
+</document>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+			http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+			http://www.springframework.org/schema/aop
+			http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+			http://www.springframework.org/schema/tx
+			http://www.springframework.org/schema/tx/spring-tx-2.0.xsd">
+
+	<bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" />
+
+	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager" autowire="byName" />
+
+	<bean id="entityManagerFactory"
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
+		autowire="byName">
+<!--		<property name="jpaVendorAdapter">
+			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+				<property name="database" value="ORACLE" />
+				<property name="showSql" value="true" />
+				<property name="generateDdl" value="false" />
+				<property name="databasePlatform" value="org.hibernate.dialect.Oracle10gDialect" />
+			</bean>
+		</property>		  
+-->
+ 		 <property name="jpaVendorAdapter">
+			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+				<property name="database" value="MYSQL" />
+				<property name="showSql" value="true" />
+				 <property name="generateDdl" value="true" />  
+				<property name="databasePlatform" value="org.hibernate.dialect.MySQLDialect" />
+			</bean>
+		</property>
+	</bean>
+
+	<tx:advice id="txAdvice">
+		<tx:attributes>
+			<tx:method name="*" propagation="REQUIRED" />
+		</tx:attributes>
+	</tx:advice>
+
+	<aop:config>
+		<aop:advisor pointcut="execution(* *..SecurityMgr.*(..))" advice-ref="txAdvice" />
+		<aop:advisor pointcut="execution(* *..BackEndMgr.*(..))" advice-ref="txAdvice" />
+		<aop:advisor pointcut="execution(* *..BuyProcessMgr.*(..))" advice-ref="txAdvice" />
+		<aop:advisor pointcut="execution(* *..DataTablesMgr.*(..))" advice-ref="txAdvice" />
+	</aop:config>
+
+	<bean name="jpaTemplate" class="org.springframework.orm.jpa.JpaTemplate" autowire="byName"/>
+
+	<bean id="BackEndMgr"
+		class="it.openprj.jTicketing.blogic.services.manager.JpaBackEndMgrImpl" autowire="byName" />
+
+	<bean id="BuyProcessMgr"
+		class="it.openprj.jTicketing.blogic.services.manager.JpaBuyProcessMgrImpl" autowire="byName" />
+
+	<bean id="DataTablesMgr"
+		class="it.openprj.jTicketing.blogic.services.manager.JpaDataTablesMgrImpl" autowire="byName" />
+
+	<bean id="SecurityMgr"
+		class="it.openprj.jTicketing.blogic.services.manager.JpaSecurityMgrImpl" autowire="byName" />
+
+</beans>

@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Area Amministratore</title>
+    </properties>
+    <meta name="keyword" content="Java Enterpise Ticketing and Box Office"/>
+    <body>
+        <section name="Area Amministratore">
+
+    <p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: center; padding: 0px;">&nbsp;</p>
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: center; padding: 0px;"><img src="./images/Administrator_it.png" style="padding: 0px; margin: 0px;" border="0" /></p>
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: center; padding: 0px;"><span style="font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Modello jTicketing &nbsp;- Area Amministratore</span></p>
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: left; padding: 0px;">&nbsp;</p>
+<h4 id="7563645f6a74695f6175615f303120266e646173683b20617574656e746963617a696f6e6520616d6d696e6973747261746f7265" style="margin-top: 20px; margin-right: 0px; margin-bottom: 6px; margin-left: 0px; font: normal normal bold 100%/18px Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #000000; font-size: 14px; padding: 0px;">UCD_JTI_AUA_01 - Autenticazione Amministratore</h4>
+<table style="margin: 0px 0px 0.75em; border-collapse: collapse; width: 652px; border-top: 1px solid #d4dce8; border-bottom: 1px solid #d4dce8; padding: 0px;" border="0" cellspacing="0">
+<tbody style="padding: 0px; margin: 0px;">
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Codice</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">UCD_JTI_AUA_01</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Nome</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Autenticazione Amministratore.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Descrizione</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">La funzionalità consente all'utente Amministratore di autenticarsi all'applicativo "jTicketing".</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Attori</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="516">
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Amministratore.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Precondizioni</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">L'Amministratore deve essere registrato.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Steps</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) L'Amministratore accede all'applicativo per effettuare l'autenticazione;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">2) Il sistema visualizza la pagina di autenticazione all'applicativo "jTicketing";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">3) L'Amministratore valorizza i seguenti campi:</span></p>
+<ul style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; font-size: 13px; padding: 0px;">
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">ID Utente;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Password.</span></li>
+</ul>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">4) L'Amministratore seleziona il pulsante "<em style="padding: 0px; margin: 0px;">Accedi</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">5) Il sistema visualizza la home page dell'applicativo "jTicketing" con le seguenti funzionalità abilitate per l'Amministratore:</span></p>
+<ul style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; font-size: 13px; padding: 0px;">
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Esci (Logout);</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Modifica Account;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Cambia Password;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Gestione Operatori;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Gestione Luoghi di Interesse;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Reportistica.</span></li>
+</ul>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Varianti</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) Se l'Amministratore seleziona il pulsante "<em style="padding: 0px; margin: 0px;">Accedi</em>" (step 4) senza aver valorizzato i campi indicati al punto&nbsp;3 degli Steps,&nbsp;il Sistema visualizza il corrispondente messaggio di errore.</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">2) Se l'Amministratore, al punto 3 degli steps, inserisce valori che non corrispondono a quelli presenti nel database&nbsp;e seleziona il pulsante "<em style="padding: 0px; margin: 0px;">Accedi</em>" (step 4), il Sistema visualizza il corrispondente messaggio di errore.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h4 id="7563645f6a74695f616d615f303120266e646173683b20616d6d696e6973747261746f72653a206d6f646966696361206163636f756e74" style="margin-top: 20px; margin-right: 0px; margin-bottom: 6px; margin-left: 0px; font: normal normal bold 100%/18px Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #000000; font-size: 14px; padding: 0px;">UCD_JTI_AMA_01 - Amministratore: Modifica Account</h4>
+<table style="margin: 0px 0px 0.75em; border-collapse: collapse; width: 652px; border-top: 1px solid #d4dce8; border-bottom: 1px solid #d4dce8; padding: 0px;" border="0" cellspacing="0">
+<tbody style="padding: 0px; margin: 0px;">
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Codice</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">UCD_JTI_AMA_01</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Nome</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Amministratore: Modifica Account.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Descrizione</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di effettuare la modifica dei dati personali.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Attori</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Amministratore.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Precondizioni</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="515">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">L'Amministratore deve avere effettuato l'autenticazione (UCD_JTI_AUA_01_Autenticazione&nbsp;Amministratore).</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Steps</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) L'Amministratore seleziona la voce "<em style="padding: 0px; margin: 0px;">Modifica Account</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">2) Il sistema visualizza la pagina di modifica dei dati personali;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">3) L'Amministratore apporta le eventuali modifiche ai seguenti campi:</span></p>
+<ul style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; font-size: 13px; padding: 0px;">
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Nome;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Cognome;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Indirizzo Email;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Conferma Indirizzo Email;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Codice di verifica.</span></li>
+</ul>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">4) L'Amministratore seleziona il pulsante "Invia";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">5) Il sistema visualizza un messaggio di conferma dell'operazione e invia all'Amministratore una email di notifica dell'aggiornamento.</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">6) L'Amministratore seleziona, all'interno della pop-up di conferma visualizzata dal sistema, il pulsante "<em style="padding: 0px; margin: 0px;">OK</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">7) Il sistema ritorna sulla home page dell'applicativo "jTicketing".</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;">Varianti</p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) L'Amministratore seleziona, al punto&nbsp;3 degli Steps, la voce "<em style="padding: 0px; margin: 0px;">Clicca qui</em>" nella sezione relativa al Codice di Verifica, il Sistema ricarica la pagina e visualizza un nuovo codice captcha da inserire.</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">2) Se i valori inseriti, al punto&nbsp;3 degli Steps,&nbsp; nei campi "<em style="padding: 0px; margin: 0px;">Indirizzo Email</em>" e "<em style="padding: 0px; margin: 0px;">Conferma Indirizzo Email</em>" non coincidono e l'Amministratore seleziona il pulsante "<em style="padding: 0px; margin: 0px;">Invia</em>" (step 4), il sistema visualizza il corrispondente&nbsp; messaggio di errore.</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">3) Se l'Amministratore, al punto&nbsp;3 degli Steps, &nbsp;inserisce nel campo "<em style="padding: 0px; margin: 0px;">Codice di Verifica</em>" un valore che non corrisponde a quello visualizzato dal sistema e seleziona il pulsante "<em style="padding: 0px; margin: 0px;">Invia</em>" (step 4),&nbsp;il Sistema visualizza il corrispondente messaggio di errore</span>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;">&nbsp;</p>
+<h4 id="7563645f6a74695f6163705f303120266e646173683b20616d6d696e6973747261746f72653a2063616d6269612070617373776f7264" style="margin-top: 20px; margin-right: 0px; margin-bottom: 6px; margin-left: 0px; font: normal normal bold 100%/18px Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #000000; font-size: 14px; padding: 0px;">UCD_JTI_ACP_01 - Amministratore: Cambia Password</h4>
+<table style="margin: 0px 0px 0.75em; border-collapse: collapse; width: 652px; border-top: 1px solid #d4dce8; border-bottom: 1px solid #d4dce8; padding: 0px;" border="0" cellspacing="0">
+<tbody style="padding: 0px; margin: 0px;">
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Codice</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">UCD_JTI_ACP_01</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Nome</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Amministratore: Cambia Password.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Descrizione</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di effettuare la modifica della propria password.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Attori</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Amministratore.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Precondizioni</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="515">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">L'Amministratore deve avere effettuato l'autenticazione (UCD_JTI_AUA_01_Autenticazione&nbsp;Amministratore).</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Steps</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) L'Amministratore seleziona la voce "<em style="padding: 0px; margin: 0px;">Cambia Password</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">2) Il sistema visualizza la pagina di modifica della password;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">3) L'Amministratore valorizza i seguenti campi:</span></p>
+<ul style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; font-size: 13px; padding: 0px;">
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Password attuale;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Nuova password;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Conferma nuova password;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Codice di Verifica.</span></li>
+</ul>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L'Amministratore seleziona il pulsante "<em style="padding: 0px; margin: 0px;">Invia</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">5) Il sistema visualizza un messaggio di conferma dell'operazione e invia all'Amministratore una email di notifica dell'aggiornamento.</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">6) L'Amministratore seleziona, all'interno della pop-up di conferma visualizzata dal sistema, il pulsante "<em style="padding: 0px; margin: 0px;">OK</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">7) Il sistema ritorna sulla home page dell'applicativo "jTicketing".</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Varianti</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) L'Amministratore seleziona, al punto&nbsp;3 degli Steps, la voce "<em style="padding: 0px; margin: 0px;">Clicca qui</em>" nella sezione relativa al Codice di Verifica, il Sistema ricarica la pagina e visualizza un nuovo codice captcha da inserire.</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">2) Se l'Amministratore seleziona il pulsante "<em style="padding: 0px; margin: 0px;">Invia</em>" (step 4) senza aver valorizzato i campi indicati al punto&nbsp;3 degli Steps,&nbsp;il Sistema visualizza il corrispondente messaggio di errore.</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">3) Se l'Amministratore, al punto&nbsp;3 degli Steps,&nbsp; inserisce nel campo "<em style="padding: 0px; margin: 0px;">Password attuale</em>" un valore che non corrisponde a quello presente nel database e seleziona il pulsante "<em style="padding: 0px; margin: 0px;">Invia</em>" (step 4), il Sistema visualizza il corrispondente messaggio di errore.</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">4) Se l'Amministratore seleziona il pulsante "<em style="padding: 0px; margin: 0px;">Invia</em>" (step 4) dopo aver inserito valori non coincidenti nei campi "<em style="padding: 0px; margin: 0px;">Nuova password</em>" e "<em style="padding: 0px; margin: 0px;">Conferma</em>&nbsp;<em style="padding: 0px; margin: 0px;">nuova password</em>" al punto&nbsp;3 degli Steps, il sistema visualizza il corrispondente&nbsp; messaggio di errore.</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">5) Se l'Amministratore, al punto&nbsp;3 degli Steps,&nbsp; inserisce nel campo "<em style="padding: 0px; margin: 0px;">Codice di Verifica</em>" un valore che non corrisponde a quello visualizzato dal sistema e seleziona il pulsante "<em style="padding: 0px; margin: 0px;">Invia</em>" (step 4),&nbsp;il Sistema visualizza il corrispondente messaggio di errore.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;">&nbsp;</p>
+<h4 id="7563645f6a74695f616d6c5f303120266e646173683b20616d6d696e6973747261746f72653a206c6f676f7574" style="margin-top: 20px; margin-right: 0px; margin-bottom: 6px; margin-left: 0px; font: normal normal bold 100%/18px Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #000000; font-size: 14px; padding: 0px;">UCD_JTI_AML_01 - Amministratore: Logout</h4>
+<table style="margin: 0px 0px 0.75em; border-collapse: collapse; width: 652px; border-top: 1px solid #d4dce8; border-bottom: 1px solid #d4dce8; padding: 0px;" border="0" cellspacing="0">
+<tbody style="padding: 0px; margin: 0px;">
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: medium; padding: 0px; margin: 0px;">C<span style="font-size: small; padding: 0px; margin: 0px;">odice</span></span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">UCD_JTI_AML_01</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Nome</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Amministratore: Logout.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Descrizione</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di uscire dall'applicativo "jTicketing".</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Attori</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Amministratore.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Precondizioni</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="515">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">L'Amministratore deve avere effettuato l'autenticazione (UCD_JTI_AUA_01_Autenticazione&nbsp;Amministratore).</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Steps</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) L'Amministratore seleziona la voce di menu "<em style="padding: 0px; margin: 0px;">Esci</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">2) Il sistema visualizza la pagina iniziale dell'applicativo "jTicketing", dalla quale è possibile effettuare nuovamente l'autenticazione;</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Varianti</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" colspan="2" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Nessuna.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;">&nbsp;</p>
+<h4 id="7563645f6a74695f70706f5f303120266e646173683b2070726f6d6f7a696f6e652070726976696c6567696f206f70657261746f7265" style="margin-top: 20px; margin-right: 0px; margin-bottom: 6px; margin-left: 0px; font: normal normal bold 100%/18px Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #000000; font-size: 14px; padding: 0px;">UCD_JTI_PPO_01 - Promozione Privilegio Operatore</h4>
+<table style="margin: 0px 0px 0.75em; border-collapse: collapse; width: 1053px; border-top: 1px solid #d4dce8; border-bottom: 1px solid #d4dce8; padding: 0px;" border="0" cellspacing="0">
+<tbody style="padding: 0px; margin: 0px;">
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Codice</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">UCD_JTI_PPO_01</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Nome</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Promozione Privilegio Operatore.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Descrizione</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="516">
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di nominare un nuovo Operatore, associando un luogo di interesse ad un utente registrato.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Attori</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="516">
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Amministratore.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Precondizioni</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="516">
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">L'Amministratore deve avere effettuato l'autenticazione (UCD_JTI_AUA_01_Autenticazione&nbsp;Amministratore).</span></p>
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Deve essersi registrato almeno un Utente (UCD_JTI_REU_01_Registrazione Utente).</span></p>
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">L'Amministratore deve aver inserito almeno un Luogo di Interesse (UCD_JTI_ILI_01_Inserimento Luogo di Interesse).</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Steps</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) L'Amministratore seleziona la voce di menu "<em style="padding: 0px; margin: 0px;">Gestione Operatori</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">2) Il sistema visualizza la pagina di ricerca degli Utenti registrati;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">3) L'Amministratore seleziona almeno uno dei seguenti parametri di ricerca:</span></p>
+<ul style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; font-size: 13px; padding: 0px;">
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Nome;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Cognome;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">User name;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Email;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Ruolo (Operatore, Utente registrato);</span></li>
+</ul>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">4) L'Amministratore seleziona il pulsante "<em style="padding: 0px; margin: 0px;">Filtra</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">5) Il sistema visualizza il risultato della ricerca in base ai parametri inseriti;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">6) L'Amministratore preme il pulsante "<em style="padding: 0px; margin: 0px;">Seleziona</em>" in corrispondenza di uno degli Utenti registrati presenti nella lista ottenuta dalla ricerca;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">7) Il sistema visualizza la lista dei Luoghi di Interesse inseriti, associabili all'Utente selezionato;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">8) L'Amministratore seleziona almeno uno dei Luoghi di Interesse visualizzati e il pulsante "<em style="padding: 0px; margin: 0px;">Aggiorna</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">9) Il sistema ritorna sulla pagina di ricerca e visualizza, nella lista sottostante, l'utente precedentemente selezionato con il ruolo di Operatore.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Varianti</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="516">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) L'Amministratore, al punto 4 degli steps, &nbsp;seleziona&nbsp;il pulsante "<em style="padding: 0px; margin: 0px;">Filtra</em>" senza avere inserito alcun parametro di ricerca, il sistema visualizza la lista di tutti gli Utenti registrati.</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">2) L'Amministratore, al punto 4 degli steps, &nbsp;preme direttamente &nbsp;il pulsante "<em style="padding: 0px; margin: 0px;">Seleziona</em>" in corrispondenza di uno degli Utenti registrati presenti nella lista visualizzata dal sistema, il flusso riprende dallo step 7.</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">3) L'Amministratore, al punto 8 degli steps, &nbsp;seleziona&nbsp;il pulsante "<em style="padding: 0px; margin: 0px;">Aggiorna</em>" senza avere selezionato alcun Luogo di Interesse, il sistema visualizza il corrispondente messaggio di errore.</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">4) L'Amministratore, al punto 8 degli steps, &nbsp;seleziona&nbsp;il pulsante "<em style="padding: 0px; margin: 0px;">Annulla</em>", il sistema ritorna sulla pagina di ricerca.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;">&nbsp;</p>
+<h4 id="7563645f6a74695f72706f5f303120266e646173683b2072696d6f7a696f6e652070726976696c6567696f206f70657261746f7265" style="margin-top: 20px; margin-right: 0px; margin-bottom: 6px; margin-left: 0px; font: normal normal bold 100%/18px Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #000000; font-size: 14px; padding: 0px;">UCD_JTI_RPO_01 - Rimozione Privilegio Operatore</h4>
+<table style="margin: 0px 0px 0.75em; border-collapse: collapse; width: 667px; border-top: 1px solid #d4dce8; border-bottom: 1px solid #d4dce8; padding: 0px;" border="0" cellspacing="0">
+<tbody style="padding: 0px; margin: 0px;">
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;">C<span style="font-size: small; padding: 0px; margin: 0px;">odice</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">UCD_JTI_RPO_01</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Nome</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Rimozione Privilegio Operatore.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Descrizione</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di revocare un Operatore, eliminando i privilegi precedentemente associati.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Attori</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Amministratore.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Precondizioni</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">L'Amministratore deve avere effettuato l'autenticazione (UCD_JTI_AUA_01_Autenticazione&nbsp;Amministratore).</span></p>
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">L'Amministratore deve aver associato almeno un privilegio ad un Operatore (UCD_JTI_PPO_01_Promozione Privilegio Operatore).</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Steps</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) L'Amministratore seleziona la voce di menu "<em style="padding: 0px; margin: 0px;">Gestione Operatori</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">2) Il sistema visualizza la pagina di ricerca degli Utenti registrati;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">3) L'Amministratore preme il pulsante "<em style="padding: 0px; margin: 0px;">Seleziona</em>" in corrispondenza di un Utente registrato con ruolo Operatore, presente nella lista ottenuta dalla ricerca;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">4) Il sistema visualizza la lista dei Luoghi di Interesse inseriti, con un flag selezionato che indica quelli associati all'Operatore;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">5) L'Amministratore deseleziona i Luoghi di Interesse associati all'Operatore e preme il pulsante "<em style="padding: 0px; margin: 0px;">Aggiorna</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">6) Il sistema ritorna sulla pagina di ricerca e visualizza, nella lista sottostante, l'utente precedentemente selezionato con il ruolo di Utente Registrato.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Varianti</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) L'Amministratore, al punto 3 degli steps,&nbsp; imposta i parametri di ricerca dell'Operatore e lo seleziona nella lista ottenuta dalla ricerca, il flusso riprende dallo step 4.</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">2) L'Amministratore, al punto 5 degli steps,&nbsp; seleziona&nbsp;il pulsante "<em style="padding: 0px; margin: 0px;">Annulla</em>", il sistema ritorna sulla pagina di ricerca senza apportare modifiche all'Utente con ruolo Operatore.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;">&nbsp;</p>
+<h4 id="7563645f6a74695f696c695f303120266e646173683b20696e736572696d656e746f206c756f676f20646920696e74657265737365" style="margin-top: 20px; margin-right: 0px; margin-bottom: 6px; margin-left: 0px; font: normal normal bold 100%/18px Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #000000; font-size: 14px; padding: 0px;">UCD_JTI_ILI_01 - Inserimento Luogo di Interesse</h4>
+<table style="margin: 0px 0px 0.75em; border-collapse: collapse; width: 667px; border-top: 1px solid #d4dce8; border-bottom: 1px solid #d4dce8; padding: 0px;" border="0" cellspacing="0">
+<tbody style="padding: 0px; margin: 0px;">
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Codice</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">UCD_JTI_ILI_01</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Nome</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Inserimento Luogo di Interesse.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Descrizione</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di inserire un nuovo Luogo di Interesse.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Attori</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Amministratore.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Precondizioni</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">L'Amministratore deve avere effettuato l'autenticazione (UCD_JTI_AUA_01_Autenticazione&nbsp;Amministratore).</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Steps</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) L'Amministratore seleziona la voce di menu "<em style="padding: 0px; margin: 0px;">Gestione Luoghi di Interesse</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">2) Il sistema visualizza la pagina con l'elenco dei Luoghi di Interesse inseriti dall'Amministratore;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">3) L'Amministratore seleziona il pulsante "<em style="padding: 0px; margin: 0px;">Nuovo</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">4) Il sistema visualizza la pagina che permette di inserire un nuovo Luogo di Interesse;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">5) L'Amministratore valorizza, nella pagina di inserimento, i seguenti campi:</span></p>
+<ul style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; font-size: 13px; padding: 0px;">
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Titolo;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Descrizione;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Immagine (da selezionare in locale).</span></li>
+</ul>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">6) L'Amministratore seleziona il pulsante "<em style="padding: 0px; margin: 0px;">Salva</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">7) Il sistema ritorna sulla pagina con l'elenco dei Luoghi di Interesse aggiornata, con il nuovo Luogo di Interesse inserito.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Varianti</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) L'Amministratore, al punto 6 degli steps, seleziona&nbsp;il pulsante "<em style="padding: 0px; margin: 0px;">Annulla</em>", il sistema ritorna sulla pagina con l'elenco dei Luoghi di Interesse senza aver apportato alcuna modifica alla lista.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;">&nbsp;</p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><strong style="padding: 0px; margin: 0px;">UCD_JTI_MLI_01 - Modifica Luogo di Interesse</strong></p>
+<table style="margin: 0px 0px 0.75em; border-collapse: collapse; width: 667px; border-top: 1px solid #d4dce8; border-bottom: 1px solid #d4dce8; padding: 0px;" border="0" cellspacing="0">
+<tbody style="padding: 0px; margin: 0px;">
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Codice</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">UCD_JTI_MLI_01</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Nome</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Modifica Luogo di Interesse.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Descrizione</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di modificare i dati di un Luogo di Interesse precedentemente inserito.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Attori</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Amministratore.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Precondizioni</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">L'Amministratore deve avere effettuato l'autenticazione (UCD_JTI_AUA_01_Autenticazione&nbsp;Amministratore).</span></p>
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">L'Amministratore deve aver inserito almeno un Luogo di Interesse (UCD_JTI_ILI_01_ Inserimento Luogo di Interesse).</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Steps</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) L'Amministratore seleziona la voce di menu "<em style="padding: 0px; margin: 0px;">Gestione Luoghi di Interesse</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">2) Il sistema visualizza la pagina con l'elenco dei Luoghi di Interesse inseriti dall'Amministratore;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">3) L'Amministratore seleziona il titolo di uno dei Luoghi di Interesse presenti nell'elenco;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">4) Il sistema visualizza la pagina che permette di modificare i dati del Luogo di Interesse selezionato;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">5) L'Amministratore apporta le eventuali modifiche ai campi della pagina (Titolo, Descrizione, Immagine) e seleziona il pulsante "<em style="padding: 0px; margin: 0px;">Salva</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">6) Il sistema salva le modifiche apportate al Luogo di Interesse selezionato e ritorna sulla pagina con l'elenco Luoghi di Interesse.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Varianti</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) L'Amministratore, al punto 5 degli steps, non effettua alcuna modifica e seleziona&nbsp;il pulsante "<em style="padding: 0px; margin: 0px;">Salva</em>", il sistema ritorna sulla pagina con l'elenco dei Luoghi di Interesse senza aver apportato alcuna modifica al Luogo di Interesse selezionato.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;">&nbsp;</p>
+<h4 id="7563645f6a74695f656c695f303120266e646173683b20656c696d696e617a696f6e65206c756f676f20646920696e74657265737365" style="margin-top: 20px; margin-right: 0px; margin-bottom: 6px; margin-left: 0px; font: normal normal bold 100%/18px Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #000000; font-size: 14px; padding: 0px;">UCD_JTI_ELI_01 - Eliminazione Luogo di Interesse</h4>
+<table style="margin: 0px 0px 0.75em; border-collapse: collapse; width: 667px; border-top: 1px solid #d4dce8; border-bottom: 1px solid #d4dce8; padding: 0px;" border="0" cellspacing="0">
+<tbody style="padding: 0px; margin: 0px;">
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;">C<span style="font-size: small; padding: 0px; margin: 0px;">odice</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">UCD_JTI_ELI_01</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Nome</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Eliminazione Luogo di Interesse.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Descrizione</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di eliminare un Luogo di Interesse precedentemente inserito.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Attori</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Amministratore.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Precondizioni</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">L'Amministratore deve avere effettuato l'autenticazione (UCD_JTI_AUA_01_Autenticazione&nbsp;Amministratore).</span></p>
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">L'Amministratore deve aver inserito almeno un Luogo di Interesse (UCD_JTI_ILI_01_ Inserimento Luogo di Interesse).</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Steps</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) L'Amministratore seleziona la voce di menu "<em style="padding: 0px; margin: 0px;">Gestione Luoghi di Interesse</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">2) Il sistema visualizza la pagina con l'elenco dei Luoghi di Interesse inseriti dall'Amministratore;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">3) L'Amministratore seleziona il titolo di uno dei Luoghi di Interesse presenti nell'elenco;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">4) Il sistema visualizza la pagina che permette di eliminare il Luogo di Interesse selezionato;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">5) L'Amministratore seleziona il pulsante "<em style="padding: 0px; margin: 0px;">Elimina</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">6) Il sistema elimina il Luogo di Interesse selezionato e ritorna sulla pagina con l'elenco Luoghi di Interesse aggiornato.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Varianti</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) L'Amministratore, al punto 5 degli steps, seleziona&nbsp;il pulsante "<em style="padding: 0px; margin: 0px;">Salva</em>", il sistema ritorna sulla pagina con l'elenco dei Luoghi di Interesse senza eliminare il Luogo di Interesse selezionato.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;">&nbsp;</p>
+<h4 id="7563645f6a74695f616d725f303120266e646173683b20616d6d696e6973747261746f72653a207265706f7274697374696361" style="margin-top: 20px; margin-right: 0px; margin-bottom: 6px; margin-left: 0px; font: normal normal bold 100%/18px Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #000000; font-size: 14px; padding: 0px;">UCD_JTI_AMR_01 - Amministratore: Reportistica</h4>
+<table style="margin: 0px 0px 0.75em; border-collapse: collapse; width: 667px; border-top: 1px solid #d4dce8; border-bottom: 1px solid #d4dce8; padding: 0px;" border="0" cellspacing="0">
+<tbody style="padding: 0px; margin: 0px;">
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Codice</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">UCD_JTI_AMR_01</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Nome</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Amministratore: Reportistica.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Descrizione</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">La funzionalità consente all'Amministratore (Admin) di visualizzare i dati statistici relativi ai biglietti acquistati per ogni singolo Luogo di Interesse inserito.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Attori</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Amministratore.</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Precondizioni</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">L'Amministratore deve avere effettuato l'autenticazione (UCD_JTI_AUA_01_Autenticazione&nbsp;Amministratore).</span></p>
+<p class="NormaleWeb1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">L'Amministratore deve aver inserito almeno un Luogo di Interesse (UCD_JTI_ILI_01_ Inserimento Luogo di Interesse).</span></p>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Steps</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">1) L'Amministratore seleziona la voce di menu "<em style="padding: 0px; margin: 0px;">Reportistica</em>";</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">2) Il sistema visualizza la pagina con l'elenco dei Luoghi di Interesse inseriti dall'Amministratore;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">3) L'Amministratore seleziona il titolo di uno dei Luoghi di Interesse presenti nell'elenco;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">4) Il sistema visualizza la pagina con l'elenco degli eventi relativi al Luogo di Interesse selezionato;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">5) L'Amministratore seleziona il titolo di uno degli eventi presenti nella lista;</span></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">6) Il sistema visualizza la pagina con la tabella statistica contenente i dati relativi ai biglietti acquistati per il Luogo di Interesse selezionato. I dati riportati nella tabella sono i seguenti:</span></p>
+<ul style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; font-size: 13px; padding: 0px;">
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Anno;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Mese;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Giorno;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Quantità;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Quantità Residua;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Venduti;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Convalidati;</span></li>
+<li style="padding: 0px; margin: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Incasso.</span></li>
+</ul>
+</td>
+</tr>
+<tr style="padding: 0px; margin: 0px;">
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="137">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Varianti</span></p>
+</td>
+<td style="padding-top: 0.375em; padding-right: 0.5em; padding-bottom: 0.375em; padding-left: 0.5em; vertical-align: top; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; margin: 0px;" valign="top" width="530">
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;"><span style="font-size: small; padding: 0px; margin: 0px;">Nessuna.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+ </section>
+    </body>
+</document>

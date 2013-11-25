@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Vista dei Casi di uso</title>
+    </properties>
+    <meta name="keyword" content="Java Enterpise Ticketing and Box Office"/>
+    <body>
+        <section name="Vista dei Casi di uso">
+   <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; text-align: center; padding: 0px;">&nbsp;</p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; text-align: center; padding: 0px;"><img src="./images/System_jticketing_it.png" style="padding: 0px; margin: 0px;" border="0" /></p>
+<p style="margin-top: 0pt; margin-right: 0px; margin-bottom: 0pt; margin-left: 0px; letter-spacing: normal; text-align: center; padding: 0px;"><span style="font-size: 10pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline; padding: 0px; margin: 0px;">Modello del sistema &nbsp;jTicketing</span></p>
+        </section>
+    </body>
+</document>

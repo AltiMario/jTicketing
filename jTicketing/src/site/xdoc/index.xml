@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document>
+    <properties>
+        <title>Home</title>
+    </properties>
+    <meta name="keyword" content="Java Enterpise Ticketing and Box Office"/>
+    <body>
+        <section name="Home">
+         <p><span style="font-size: 72pt; font-family: Times New Roman; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="./images/Logo_jticketing.png" border="0" width="670px;" height="143px;" /></p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><span style="font-size: medium;"><strong>Management tool for online ticketing and box office, which provides a highly configurable enterprise class solution.</strong></span></p>
+        </section>
+    </body>
+</document>

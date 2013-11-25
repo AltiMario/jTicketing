@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"  "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+	<form-beans>
+		<form-bean name="addForm" type="it.openprj.jTicketing.core.forms.security.AddForm" />
+		<form-bean name="registrationForm" type="it.openprj.jTicketing.core.forms.security.RegistrationForm" />
+		<form-bean name="profileForm" type="it.openprj.jTicketing.core.forms.security.ProfileForm" />
+		<form-bean name="changePasswordForm" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="oldpassword" type="java.lang.String" />
+			<form-property name="password" type="java.lang.String" />
+			<form-property name="passwordreply" type="java.lang.String" />
+		</form-bean>
+		<form-bean name="loginForm"	type="org.apache.struts.action.DynaActionForm">
+			<form-property name="username" type="java.lang.String" />
+			<form-property name="password" type="java.lang.String" />
+			<form-property name="remindme" type="java.lang.String" />
+		</form-bean>
+		<form-bean name="forgotPasswordForm" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="userid" type="java.lang.String" />
+		</form-bean>
+		<form-bean name="forgotUseridForm" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="email" type="java.lang.String" />
+			<form-property name="emailreply" type="java.lang.String" />
+		</form-bean>
+		<form-bean name="activateAccountForm" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="activationCode" type="java.lang.String" />
+		</form-bean>
+	</form-beans>
+
+	<action-mappings>
+		<action path="/login" type="it.openprj.jTicketing.core.actions.security.LoginAction" name="loginForm" scope="request" validate="false"
+				input="/index.jsp">
+			<forward name="success" redirect="true" path="/index.jsp" />
+			<forward name="fail" path="/prepareLogin.do" />
+			<forward name="activateAccount" path="/prepareActivateAccount.do" />
+		</action>
+		<action path="/socialNetwork" type="it.openprj.jTicketing.core.actions.security.SocialNetworkIntegrationAction" scope="request" validate="false"
+				>
+			<forward name="success" redirect="true" path="/index.jsp" />
+			<forward name="activateAccount" path="/prepareActivateAccount.do" />
+		</action>
+		
+		<action path="/register" type="it.openprj.jTicketing.core.actions.security.captchaAction" name="registrationForm" scope="session" 
+				validate="false" input="/prepareRegister.do">
+			<forward name="success" path="/jcaptchaRegistration.do" />
+		</action>
+
+		<action path="/jcaptchaRegistration" type="it.openprj.jTicketing.core.actions.security.RegisterAction"
+				name="registrationForm" scope="session"	input="/pages/register/register.jsp">
+			<forward name="fail" path="/prepareRegister.do" />
+			<forward name="success" path="/prepareActivateAccount.do" />
+		</action>
+		
+		<action path="/updateProfile" type="it.openprj.jTicketing.core.actions.security.captchaAction"
+				name="profileForm" scope="session" validate="false"	input="/prepareUpdateProfile.do">
+			<forward name="success" path="/jcaptchaUpdateProfile.do" />
+		</action>
+		
+		<action path="/updatePassword"	type="it.openprj.jTicketing.core.actions.security.captchaAction" name="changePasswordForm" 
+				scope="request" validate="false" input="/prepareUpdatePassword.do">
+			<forward name="success" path="/jcaptchaUpdatePassword.do" />
+		</action>
+		
+		<action path="/jcaptchaUpdatePassword" type="it.openprj.jTicketing.core.actions.security.UpdatePasswordAction"
+				name="changePasswordForm" scope="request" input="/pages/profile/updatePassword.jsp">
+			<forward name="fail" path="/prepareUpdatePassword.do" />
+			<forward name="success" path="/home.do" />
+		</action>
+
+		<action path="/jcaptchaUpdateProfile" type="it.openprj.jTicketing.core.actions.security.UpdateProfileAction" name="profileForm" 
+				scope="session"	input="/pages/profile/updateProfile.jsp">
+			<forward name="fail" path="/prepareUpdateProfile.do" />
+			<forward name="success" path="/home.do" />
+		</action>
+
+		<action path="/jcaptcha" type="com.octo.captcha.module.struts.image.RenderImageCaptchaAction">
+		</action>
+
+		<action path="/logout" type="it.openprj.jTicketing.core.actions.security.LogoutAction" scope="request">
+			<forward name="success" path="/home.do" />
+		</action>
+		
+		<action path="/prepareUpdateProfile" type="org.apache.struts.actions.ForwardAction" parameter="updateProfile" ></action>
+		
+		<action path="/prepareUpdatePassword" type="org.apache.struts.actions.ForwardAction" parameter="updatePassword"></action>
+
+		<action path="/prepareLogin" type="org.apache.struts.actions.ForwardAction" parameter="login" scope="request"></action>
+
+		<action path="/prepareRegister"	type="org.apache.struts.actions.ForwardAction" parameter="register" ></action>
+
+		<action path="/forgotUserid" type="org.apache.struts.actions.ForwardAction"	parameter="forgotUserid"></action>
+
+		<action path="/forgotPassword" type="org.apache.struts.actions.ForwardAction" parameter="forgotPassword"></action>
+
+		<action path="/prepareActivateAccount" type="org.apache.struts.actions.ForwardAction" parameter="activateAccount"></action>
+
+		<action path="/activateAccount"	type="it.openprj.jTicketing.core.actions.security.ActivateAccoutAction"
+				name="activateAccountForm" scope="request" validate="false"	input="/pages/register/activateAccount.jsp">
+			<forward name="success" path="/prepareLogin.do" />
+			<forward name="fail" path="/prepareActivateAccount.do" />
+		</action>
+
+		<action path="/recoveryPassword" type="it.openprj.jTicketing.core.actions.security.captchaAction" name="forgotPasswordForm" 
+				scope="request" validate="false" input="/forgotPassword.do">
+			<forward name="success" path="/jcaptchaRecoveryPassword.do" />
+		</action>
+		
+		<action path="/jcaptchaRecoveryPassword" type="it.openprj.jTicketing.core.actions.security.RecoveryPasswordAction"
+				name="forgotPasswordForm" scope="request" validate="false" input="/recoveryPassword.do">
+			<forward name="success" path="/prepareLogin.do" />
+			<forward name="fail" path="/forgotPassword.do" />
+		</action>
+
+		<action path="/recoveryUserid" type="it.openprj.jTicketing.core.actions.security.captchaAction"	name="forgotUseridForm" 
+				scope="request" validate="false" input="/forgotUserid.do">
+			<forward name="success" path="/jcaptchaRecoveryUserid.do" />
+		</action>
+		
+		<action path="/jcaptchaRecoveryUserid" type="it.openprj.jTicketing.core.actions.security.RecoveryUseridAction"
+				name="forgotUseridForm" scope="request" validate="false" input="/recoveryUserid.do">
+			<forward name="success" path="/prepareLogin.do" />
+			<forward name="fail" path="/forgotUserid.do" />
+		</action>
+
+		<action path="/secureArea" type="org.apache.struts.actions.ForwardAction" parameter="secureArea">
+			<forward name="success" redirect="true"	path="/prepareLogin.do" />
+		</action>
+	</action-mappings>
+	
+	<message-resources parameter="resources.MessageResources" />
+	
+	<plug-in className="com.octo.captcha.module.struts.CaptchaServicePlugin"></plug-in>
+</struts-config>

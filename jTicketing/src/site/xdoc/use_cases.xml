@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Casi d'uso</title>
+    </properties>
+    <meta name="keyword" content="Java Enterpise Ticketing and Box Office"/>
+    <body>
+        <section name="Casi d'uso">
+        <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; letter-spacing: normal; padding: 0px;">Di seguito sono riportati:</p>
+<ul style="margin-top: 0px; margin-right: 2em; margin-bottom: 0.75em; margin-left: 2.5em; font-size: 16px; padding: 0px;">
+<li style="padding: 0px; margin: 0px;">Struttura dei Casi d'uso;</li>
+<li style="padding: 0px; margin: 0px;">Matrice Requisito/Funzionalità - Casi d'uso;</li>
+<li style="padding: 0px; margin: 0px;">Vista dei Casi d'uso;</li>
+<li style="padding: 0px; margin: 0px;">Attori dei Casi d'uso;</li>
+<li style="padding: 0px; margin: 0px;">Analisi dei Casi d'uso.</li>
+</ul>
+        </section>
+           </body>
+       </document>

@@ -1,0 +1,1099 @@
+/*RESET ELEMENTS PADDING AND MARGINS*/
+*
+{
+  margin:0px;
+  padding:0px;
+}
+html {
+	  background-color:#51820c;
+	  width:100%;
+	}
+	
+	body
+	{
+	  width:100%;
+	  margin:0px;
+	  padding:0px;
+	  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  font-size:32px;
+	  line-height:120%;
+	  letter-spacing:0.5px;
+	  word-spacing:1px;
+	  color:#2b0036;
+	  background-color:#84ac1a;
+	}
+	
+	h1 {
+	  font-size:95%;
+	  font-family:Times New Roman, serif;
+	}
+	
+	h2 {
+	  font-size:90%;
+	  font-family:Times New Roman, serif;
+	}
+	
+	h3 {
+	  font-size:85%;
+	}
+	
+	h4 {
+	  font-size:80%;
+	}
+	
+	p {
+	  font-size:75%;
+	}
+	
+	ul {
+	  list-style-type:none;
+	}
+	
+	ul li {
+	  line-height:110%;
+	}
+	
+	/*Utilities*/
+	.ClearFix
+	{
+	  height:1px;
+	  clear:both;
+	}
+	
+	.Bold
+	{
+	  font-weight:bold;
+	}
+	
+	.CenterText
+	{
+	  text-align:center;
+	}
+	
+	.FloatLeft
+	{
+	  float:left;
+	  clear:left;
+	}
+	
+	.FloatRight
+	{
+	  float:right;
+	  clear:right;
+	}
+	
+	.PushRight
+	{
+	  margin-left:370px;
+	}
+	
+	/*To create darker color band in body bg color*/
+	.DarkGreenBg
+	{
+	  position:absolute;
+	  top:300px;
+	  left:0px;
+	  width:100%;
+	  height:300px;
+	  background-color:#51820c;
+	}
+	/*End of dark green bg color band*/
+	
+	/* WRAPPER DIV (holds the entire page) */
+	.Wrapper
+	{
+	  width:90%;
+	  margin:0px auto 0px auto;	
+      position:relative;	  
+	} /*END OF WRAPPER DIV*/
+	
+	/*ROUND CORNER DIV (Holds the square white area with rounded corners at the center)*/
+	.RoundContainer
+	{
+	  width:860px;
+	  position:relative;
+	  top:30px;
+	  left:auto;
+	  right:auto;
+	  margin:0px auto;
+	  padding-bottom:20px;
+	  background-color:#fff;
+	  -webkit-border-radius:20px;
+	  -moz-border-radius:20px;
+	  border-radius:20px;
+	} /* END OF ROUND CORNER DIV */
+	
+	/*HEADER (Holds logo and top navigation)*/
+	.Header
+	{
+	  width:96%;
+	  background-color:#fff;
+	  min-height:100px;
+	  padding:10px;
+	  top:20px;
+	  position:relative;
+	  margin-bottom:10px;
+	}
+	
+	.Logo
+	{
+	  max-height:100px;
+	  min-height:85px;
+	  width:472px;
+	}
+	
+	.Logo img
+	{
+	  border:0px;
+	  float:left;
+	  clear:left;
+	  width:98%;
+	}
+	
+	/* top navigation */
+	.TopNav
+	{
+	  font-size:46%;
+	  width:auto;
+	  position:absolute;
+	  top:1px;
+	  right:5px;
+	}
+	
+	.TopNav ul, .TopNav li
+	{
+	  margin:-1px;
+	  float:left;
+	  padding-right:4px;
+	  padding-left:2px;
+	}
+	
+	.TopNav a  /*top nav default state (except for home and cart links (they have 1 rounded corner*/
+	{
+	  display:inline-block;
+	  vertical-align:middle;
+	  min-height:25px;
+	  min-width:60px;
+	  padding-top:7px;
+	  padding-bottom:3px;
+	  padding-right:5px;
+	  padding-left:5px;
+	  margin:-1px;
+	  text-decoration:none;
+	  text-align:center;
+	  font-weight:bold;
+	  color:#2b0036;
+	  background-color:#d0f781;    
+	  
+	}
+	
+	.TopNav a:hover  
+	{
+	  color:#fff;
+	  text-decoration:underline;
+	}
+	
+	.TopNav .Current  a  /*top nav link in active state (when on current page)*/
+	{
+	  background:#5a9502;
+	  color:#fff;
+	}
+	
+	.TopNav a img   /*cart image on cart top nav link*/
+	{
+	  max-height:21px;
+	  border:0px;
+	}
+	
+	.TopNav .CartLink a /*round right-corner on top cart link in default state*/
+	{
+	  background:#d0f781 url(../images/border_nav_right.gif) 102% 0px no-repeat;
+	}
+	
+	.TopNav .CartLinkCurrent a    /*style cart link in active/current state*/ 
+	{
+	  background:#5a9502 url(../images/top_nav_active_right.gif) 104% 0px no-repeat;
+	}	
+	
+	.TopNav .CurrentHome a  /* Round left corner on home link active/on current page*/
+	{
+	  background:#5a9502 url(../images/border_nav_left.gif) -2px 0px no-repeat;
+	  color:#fff;
+	} 
+	
+	/*round left corner on home link in default state*/
+	.TopNav .DefaultHome a
+	{
+	  background:#d0f781 url(../images/top_nav_default_left.gif) 0px -1px no-repeat;
+	}
+	
+	/*End of top navigation */
+	
+	/*END OF HEADER SECTION*/
+	
+	/*BREADCRUMB NAVIGATION SECTION*/
+	
+	/* Breadcrumb Navigation */
+	.StepNum
+	{
+	  position:relative;
+	  width:95%;
+	  margin:0px auto 0px auto;
+	  text-align:center;
+	  white-space:nowrap;
+	  font-family:"Comic Sans MS", cursive, sans-serif;
+	  font-weight:bold;
+	  min-height:30px;
+	  background-color:#fff;
+	}
+	
+	.StepNum ul
+	{
+	  margin-left:0px;
+	}
+
+	.StepNum ul .DefaultStep
+	{
+	  display:inline-block;
+	  position:relative;
+	  font-size:60%;
+	  padding-left:34px;
+	  padding-right:4px;
+	  padding-bottom:7px;
+	  padding-top:5px;
+	  margin-right:5px;
+	  color:#fc8f34;
+	  background:#ecf1e8 url(../images/step.png) 0px 0px no-repeat;
+	  /*boxshadow*/
+	  box-shadow: 1px 2px 5px 2px #ddd; 
+	  /*rounded corners*/
+	  -webkit-border-radius:10px;
+	  -moz-border-radius:10px;
+      border-radius:10px; 
+	}
+	
+	.StepNum .Num
+	{
+	  position:absolute;
+	  top:3px;
+	  left:7px;
+	}
+	
+	.StepNum ul .ActiveStep
+	{
+	  display:inline-block;
+	  position:relative;
+	  font-size:60%;
+	  padding-left:34px;
+	  padding-right:3px;
+	  padding-bottom:7px;
+	  padding-top:5px;
+	  margin-right:5px;
+	  margin-left:5px;
+	  color:#cc0056;
+	  background:#fff url(../images/currentstep.png) 0px 0px no-repeat;
+	}
+	
+	.StepNum ul .DoneStep
+	{
+	  display:inline;
+	  position:relative;
+	  font-size:60%;
+	  padding-left:34px;
+	  padding-right:2px;
+	  padding-bottom:7px;
+	  padding-top:5px;
+	  margin-right:5px;
+	  color:#c0ee89;
+	  background:#fff url(../images/steptick.png) -2px 0px no-repeat;
+	}
+	/*END OF BREADCRUMB NAVIGATION SECTION */
+	
+	/* MAIN CONTENT AREA */
+	
+	.MainContent
+	{
+	  max-width:90%;
+	  background-color:#fff;
+	  padding-right:2px;
+	  padding-left:2px;
+	  margin:20px auto 20px auto;
+	  clear:both;
+	}
+	
+	/* LOCATION PANEL AREA IN MAIN CONTENT*/
+	
+	.LocationPanel
+	{
+	  margin-top:10px;
+	  border:1px #cd0205 solid;
+	  width:100%;
+	  background-color:#f5f5f5;
+	}
+	
+	.LocationPanel img
+	{
+	  float:left;
+	  padding-right:10px;
+	  padding-bottom:10px;
+	  padding-left:10px;
+	}
+	
+	.LocationPanel h2
+	{
+	  color:#cc0033;
+	  padding-left:10px;
+	}
+	
+	.LocationPanel a
+	{
+	  padding-bottom:2px;
+      margin:20px 30px 20px 0px;	 
+	}
+	
+	.LocationPanel p
+	{
+	  font-size:55%;
+	  max-width:55%;
+	  line-height:120%;
+	  margin-right:0px;
+	  margin-left:20px;
+	  float:left;
+	}
+	
+	/*Submit Link*/
+	
+	.SubmitLink
+	{
+	  background-color:#cddc89;
+	  color:#2b0036;
+	  font-weight:bold;
+	  border:1px solid #157e3b;
+	  text-decoration:none;
+	  font-size:55%;
+	  padding:5px;
+	  /*rounded corners*/
+	  -webkit-border-radius:20px;
+	  -moz-border-radius:20px;
+      border-radius:20px;
+      /*Gradients*/
+	  background: -moz-linear-gradient(top, #fff 0.3%, #cddc89 30%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0.3%,#fff), color-stop(30%,#cddc89)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, #fff 0.3%,#cddc89 30%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #fff 0.3%,#cddc89 30%); /* Opera11.10+ */
+      background: -ms-linear-gradient(top, #fff 0.3%,#cddc89 30%); /* IE10+ */
+	  background: linear-gradient(top, #fff 0.3%,#cddc89 30%); /* W3C */	  
+	}
+	
+	.SubmitLink:hover
+	{
+	  /*transform*/
+      -webkit-transform:rotate(5deg);
+      -moz-transform:rotate(5deg);
+      -o-transform:rotate(5deg);
+      -ms-transform:rotate(5deg);
+      transform:rotate(5deg);
+	  color:#fff;
+      /*Gradients*/
+	  background: -moz-linear-gradient(top, #fff 0.3%, #51820c 50%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0.3%,#fff), color-stop(50%,#51820c)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, #fff 0.3%,#51820c 50%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #fff 0.3%,#51820c 50%); /* Opera11.10+ */
+      background: -ms-linear-gradient(top, #fff 0.3%,#51820c 50%); /* IE10+ */
+	  background: linear-gradient(top, #fff 0.3%,#51820c 50%); /* W3C */	  
+	}
+	
+	/* End of submit link area*/
+	
+	/* END OF LOCATION PANEL AREA IN MAIN CONTENT */
+	
+	/*REGISTER PANEL IN MAIN CONTENT (REGISTER PAGE)*/
+	
+    .RegisterPanel
+         {
+	  padding:10px;
+	  margin-top:10px;
+	  border:1px #cd0205 solid;
+	  background-color:#f5f5f5;
+	  /*rounded corners*/
+	  -webkit-border-radius:10px;
+	  -moz-border-radius:10px;
+      border-radius:10px;
+	  /*Box shadow*/
+	  -webkit-box-shadow: 1px 2px 5px 2px #cccccc;
+      -moz-box-shadow: 1px 2px 5px 2px #cccccc;
+      box-shadow: 1px 2px 5px 2px #ddd; 
+    }
+
+    /*Register Form Styles*/
+	
+	.SubmitBtn
+	{
+	  background-color:#cddc89;
+	  color:#2b0036;
+	  font-weight:bold;
+	  border:1px solid #157e3b;
+	  text-decoration:none;
+	  font-size:70%;
+	  padding:7px;
+	  cursor:pointer;
+	  /*rounded corners*/
+	  -webkit-border-radius:30px;
+	  -moz-border-radius:30px;
+      border-radius:30px;
+	  /*Gradients*/
+	  background: -moz-linear-gradient(top, #fff 0.3%, #cddc89 30%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0.3%,#fff), color-stop(30%,#cddc89)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, #fff 0.3%,#cddc89 30%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #fff 0.3%,#cddc89 30%); /* Opera11.10+ */
+      background: -ms-linear-gradient(top, #fff 0.3%,#cddc89 30%); /* IE10+ */
+	  background: linear-gradient(top, #fff 0.3%,#cddc89 30%); /* W3C */
+	}
+	
+	.SubmitBtn:hover
+	{
+	  /*transform*/
+      -webkit-transform:rotate(5deg);
+      -moz-transform:rotate(5deg);
+      -o-transform:rotate(5deg);
+      -ms-transform:rotate(5deg);
+      transform:rotate(5deg);
+      color:#fff;
+      /*Gradients*/
+	  background: -moz-linear-gradient(top, #fff 0.3%, #51820c 50%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0.3%,#fff), color-stop(50%,#51820c)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, #fff 0.3%,#51820c 50%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #fff 0.3%,#51820c 50%); /* Opera11.10+ */
+      background: -ms-linear-gradient(top, #fff 0.3%,#51820c 50%); /* IE10+ */
+	  background: linear-gradient(top, #fff 0.3%,#51820c 50%); /* W3C */	  
+	}
+	
+    .RegisterForm
+	{
+	  min-width:95%;
+	  font-size:80%;
+	}
+	
+	.RegisterForm h2
+	{
+	  color:#cc0033;
+	  font-size:103%;
+	  margin-bottom:10px;
+	}
+	
+	.RegisterForm h3
+	{
+	  color:#e89607;
+	  font-size:70%;
+	}
+	
+	.RegisterForm p
+	{
+	  margin-bottom:10px;
+	  margin-top:15px;
+	}
+	
+	.RegisterForm label
+	{
+	  font-weight:bold;
+	  padding-right:5px;
+	  padding-left:0px;
+	  margin-left:0px;
+	  display:inline-block;
+	  width:190px;
+	}
+	
+	.RegisterForm input[type=text], .RegisterForm input[type=password]
+	{
+	  width:200px;
+	  padding:3px;
+	  border:2px groove #cc0033;
+	  margin-left:5px;
+	}
+	
+	.RegisterForm input[type=submit]
+	{
+	  border:1px solid #157e3b;
+	}
+	
+	.RegisterForm select
+	{
+	  width:210px;
+	  padding:5px;
+	  margin-left:5px;
+	  font-weight:bold;
+	  color:#cc0033;
+	  border:2px groove #cc0033;
+	}
+	
+	.RegisterForm img
+	{
+	  float:left;
+	  clear:left;
+	  padding-right:10px;
+	}
+	
+	.RegisterForm .Captcha /*style the span with captcha message*/
+	{
+	  color:#e89607;
+	  font-size:90%;
+	  font-weight:bold;
+	  line-height:110%;
+	  display:inline;
+	  margin-left:10px;
+	  margin-top:70px;
+	}
+	
+	.RegisterForm .Captcha a /*style submit btn/link in captcha section*/
+	{
+	  font-weight:bold;
+	  font-size:100%;
+	  background-color:#cddc89;
+	  color:#2b0036;
+	  border:1px solid #157e3b;
+	  text-decoration:none;
+	  padding:5px;
+	  /*rounded corners*/
+	  -webkit-border-radius:20px;
+	  -moz-border-radius:20px;
+      border-radius:20px; 
+	}
+	
+	.RegisterForm .Alert /*Form validation messages*/
+	{
+	  color:#e89607;
+	  font-size:80%;
+	  font-weight:bold;
+	  line-height:110%;
+	  display:inline-block;
+	  max-width:35%;
+	  margin-left:50px;
+	}
+	
+	.RegisterForm .Privacy   /*style checkbox label in the user agreement panel*/
+	{
+	  font-size:60%;
+	  font-weight:bold;
+	  line-height:130%;
+	  width:70%;
+	  margin-top:10px;
+	}
+	
+	.RegisterForm input[type=checkbox]
+	{
+	  margin-left:0px;
+	  margin-right:30px;
+	  margin-top:10px;
+	  vertical-align:top;
+	}
+	
+    /*End of register form styles*/	
+	
+	/*END OF REGISTER PANEL IN MAIN CONTENT*/
+	
+	/* LOGIN FORMS SECTION */
+	
+	.FormsContainer
+	{
+	  padding:10px;
+	  border:1px #cd0205 solid;
+	}
+	
+	.LoginFormPanel
+	{
+	   padding:10px;
+	   width:55%;
+	   display:table-cell;
+	}
+	
+	.RegisterInvitePanel
+	{
+	  padding:5px;
+	  width:45%;
+	  display:table-cell;
+	}
+	
+	.LoginForm legend, .RegisterInvitePanel legend
+	{
+	  color:#e89607;
+	  font-size:70%;
+	}
+	
+	.LoginForm fieldset, .RegisterInvitePanel fieldset
+	{
+	  
+	  font-weight:bold;
+	  padding:10px;
+	  border-color:#848484;
+	}
+	
+	.LoginForm p
+	{
+	  line-height:130%;
+	}
+	
+	.RegisterInvitePanel p
+	{
+	  font-size:50%;
+	  line-height:130%;
+	  text-align:center;
+	}
+	
+	.RegisterInvitePanel a
+	{
+	  font-size:55%;
+	}
+	
+	.LoginForm label
+	{
+	  font-size:80%;
+	  font-weight:bold;
+	  width:160px;
+	  display:inline-block;
+	}
+	
+	.LoginForm input[type=text], .LoginForm input[type=password]
+	{
+	  width:180px;
+	  padding:3px;
+	  border:2px groove #cc0033;
+	  margin-left:5px;
+	}
+	
+	.LoginForm input[type=submit]
+	{
+	  font-size:60%;
+	  border:1px solid #157e3b;
+	}
+	
+	.LoginForm .ForgottenCredentials
+	{
+	  font-size:60%;
+	  display:block;
+	  margin-bottom:10px;
+	  margin-top:5px;
+	}
+	
+	/* END OF LOGIN FORMS SECTION */
+	
+	/*TICKET TYPE PAGE*/
+	
+	.TicketTypePanel
+	{
+	  margin:0px auto;
+	}
+	
+	.LocationNameDiv
+	{
+	  width:30%;
+	  float:left;
+	  margin-top:50px;
+	}
+	
+	.LocationNameDiv h2
+	{
+	  color:#cc0033;
+	  font-size:100%;
+	  width:auto;
+	  text-align:center;	  
+	  line-height:120%;
+	  /*Text shadow*/
+	  text-shadow: 2px 1px 1px #336600;
+	  background:rgba(000, 000, 000, 0.07);
+	  /*border radius*/
+     -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+	}
+	
+	.LocationNameDiv h3
+	{
+	  font-size:67%;
+	  line-height:120%;
+	  width:100%;
+	  color:#cc0033;
+	  padding:5px;
+	  margin-top:20px;
+	  text-align:center;
+	  border:1px solid #ddd;
+	   /*border radius*/
+     -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+	  /*Gradients*/
+	  background: -moz-linear-gradient(top, #ccc 1%, #fff 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ccc), color-stop(100%,#fff)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, #ccc 1%,#fff 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #ccc 1%,#fff 100%); /* Opera11.10+ */
+      background: -ms-linear-gradient(top, #ccc 1%,#fff 100%); /* IE10+ */
+	  background: linear-gradient(top, #ccc 1%,#fff 100%); /* W3C */
+	  
+	}
+	
+	.ChosenLocationDiv /*div displaying fingers holding the card*/
+	{
+	  background:#fff url(../images/handcard.jpg) 0px 0px no-repeat;
+	  width:50%;
+	  min-height:200px;
+	  margin-top:50px;
+	  margin-bottom:10px;
+	  float:right;
+	  right:0px;
+	}
+	
+	.LocationImg  /*span to display chosen location img*/ 
+	{
+	  display:inline-block;
+	  width:199px;
+	  height:176px;
+	  background:transparent url(../images/locationplaceholder_small.jpg) 0px 0px no-repeat;
+	  margin-right:30px;
+	}
+	
+	.TicketsListDiv
+	{
+	  position:relative;
+	  width:100%;
+	  clear:both;
+	}
+	
+	.TicketsListDiv ul li
+	{
+	  display:inline-block;
+	  width:350px;
+	  height:200px;
+	  float:left;
+	  border:1px #cd0205 solid;
+	  margin-bottom:10px;
+	  margin-left:3px;
+	  padding:5px;
+	}
+	
+	.TicketsListDiv h3
+	{
+	  color:#e89607;
+	  font-size:65%;
+	  padding-right:20px;
+	  padding-left:0px;
+	  padding-bottom:5px;
+	  line-height:125%;
+	}
+	
+	.TicketsListDiv p
+	{
+	  font-size:55%;
+	  margin-bottom:5px;
+	  line-height:125%;
+	}
+	
+	/*END TICKET TYPE PAGE*/
+	
+	/*CALENDAR PAGE*/
+	.CalendarPanel
+	{
+	  margin:0px auto;
+	}
+	
+	.YearMonth
+	{
+	  clear:both;
+	  padding-top:5px;
+	  text-align:center;
+	}
+	
+	.YearMonth h2
+	{
+	  color:#cc0033;
+	  font-size:120%;
+	  /*Text shadow*/
+	  text-shadow: 2px 1px 1px #336600;
+	}
+	
+	.YearMonth select
+	{
+	  width:210px;
+	  padding:5px;
+	  margin-left:5px;
+	  font-weight:bold;
+	  color:#cc0033;
+	  border:2px groove #cc0033;
+	}
+	
+	.YearMonth label
+	{
+	  font-size:80%;
+	  color:#cc0033;
+	}
+	
+	.CalendarLegend
+	{
+	  margin-top:20px;
+	  width:auto;
+	}
+	
+	.CalendarLegend ul
+	{
+	  text-align:center;
+	}
+	
+	.CalendarLegend ul li
+	{
+	  font-size:60%;
+	  display:inline;
+	}
+	
+	.CalendarLegend .LegendTitle
+	{
+	  color:#cc0033;
+	  font-weight:bold;
+	  padding-left:5px;
+	}
+	
+	.Green, .Gray, .Red
+	{
+	  border:1px inset #cc3300;
+	  margin:5px;
+	  padding:5px;
+	}
+	
+	.Green  /*Legend and available day in calendar*/
+	{
+	  background-color:#ccffcc;	  
+	}
+	
+	.Gray  /*Legend and not available day in calendar*/
+	{
+	  background-color:#ccc;
+	}
+	
+	.Red  /*Legend and day with unfinished ticket in calendar*/
+	{
+	  background-color:#f52f46;
+	}
+	
+	.CalendarNail
+	{
+	  background:url(../images/calendarnail.png) 50% 0px no-repeat;
+	  width:100%;
+	  height:45px;
+	  position:relative;
+	}
+	
+	.Calendar 
+	{
+	  width:100%;
+	  border:2px solid #cc0033;
+	  background-color:#fff;
+	  /*box shadow */
+      -webkit-box-shadow: 2px 1px 10px 2px #333;
+      -moz-box-shadow: 2px 1px 10px 2px #333;
+      box-shadow: 2px 1px 10px 2px #333;
+	  /*Gradients*/
+	  background: -moz-linear-gradient(top, #fc9 0.2%, #fff 50%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0.2%,#fc9), color-stop(50%,#fff)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, #fc9 0.2%,#fff 50%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #fc9 0.2%,#fff 50%); /* Opera11.10+ */
+      background: -ms-linear-gradient(top, #fc9 0.2%,#fff 50%); /* IE10+ */
+	  background: linear-gradient(top, #fc9 0.2%,#fff 50%); /* W3C */
+	}
+	
+	.Calendar table
+	{
+	  margin:0px auto;
+	}
+
+	.Calendar table  caption
+	{
+	  font-size:90%;
+	  font-weight:bold;
+	  color:#cc0033;
+	  width:60%;
+	  margin:0px auto;
+	  /*Text shadow*/
+	  text-shadow: 2px 2px 1px #336600;
+	  background-color:#ffcc99;
+	  background:rgba(000, 000, 000, 0.07);
+	}
+	
+	.Calendar table th
+	{
+	  font-size:80%;
+	}
+	
+	.Calendar table td 
+	{
+	  text-align:center;
+	  border:2px;
+	  width:1%;
+	  font-size:75%;
+	  padding:2px;
+	}
+	
+	.Calendar table td a
+	{
+	  color:#2b0036;
+	  text-decoration:none;
+	  display:block;
+	}
+	
+	.Calendar table td a:hover
+	{
+	  border:1px solid #fc8f34;
+	  padding:5px;
+	}
+	
+	.Calendar .Selected a
+	{
+	  color:#cc0033;
+	  font-weight:bold;
+	  text-decoration:underline;
+	}
+	
+	.TicketInfo
+	{
+	  clear:both;
+	  margin:20px 0px 0px 100px;
+	  width:600px;
+	  border-bottom:1px #cd0205 solid;
+	}
+	
+	.TicketInfo h2
+	{
+	  color:#cc0033;
+	  font-size:120%;
+	  width:auto;
+	  text-align:center;	  
+	  line-height:120%;
+	  margin-bottom:15px;
+	  border-bottom:1px #cd0205 solid;
+	  /*Text shadow*/
+	  text-shadow: 2px 1px 1px #336600;
+	}
+	
+	.TicketInfo h3
+	{
+	  margin:5px 0px 5px 0px;
+	  line-height:115%;
+	  float:left;
+	  clear:left;
+	  font-size:75%;
+	}
+	
+	.TicketInfo label
+	{
+	  color:#e89607;
+	  padding-right:5px;
+	  display:inline-block;
+	  width:200px;
+	  float:left;
+	  clear:left;
+	}
+	
+	.TicketInfo span
+	{
+	  width:350px;
+	  float:right;
+	  clear:right;
+	}
+	
+	/* END OF CALENDAR PAGE*/
+	
+	/*SHOPPING CART PAGE*/
+	
+	.CartPanel
+	{
+	  margin:0px auto;
+	}
+	
+	.Cart
+	{
+	  margin:0px auto;
+	  margin-bottom:50px;
+	}
+	
+	.Cart table
+	{
+	  width:100%;
+	  text-align:center;
+	  border:1px groove #cd0205;
+	  border-collapse:collapse;
+      -moz-border-radius:5px;
+      -webkit-border-radius:5px;
+      border-radius:5px;	  
+	}
+	
+	.Cart table caption
+	{
+	  padding:5px 5px 8px 5px;
+	  font-size:80%;
+	  color:#cc0033;
+	  font-weight:bold;
+	  background:url(../images/cartbig.png) 2px -10px no-repeat;
+	  /*Text shadow*/
+	  text-shadow: 2px 1px 1px #336600;
+	}
+	
+	.Cart table th
+	{
+	  font-size:60%;
+	  color:#e89607;
+	  border-bottom:1px groove #cd0205;
+	}
+	
+	.Cart table .Total
+	{
+	  color:#cc0033;
+	}
+	
+	.Cart table td
+	{
+	  font-size:60%;
+	  vertical-align:middle;
+	  padding:5px;
+	}
+	
+	.Cart table td .SubmitBtn
+	{
+	  width:auto;
+	  clear:none;
+	  margin-bottom:0px;
+	  margin-top:10px;
+	  padding:3px;
+	}
+	
+	.Cart table td .TxtInput
+	{
+	  width:30px;
+	  text-align:center;
+	  padding:3px;
+	  border:2px groove #cc0033;
+	  margin-left:2px;
+	}
+	
+	.CartPanel ul li
+	{
+	  margin-bottom:10px;
+	  margin-top:20px;
+	  display:inline-block;	  
+	}
+	
+	/*END OF SHOPPING CART PAGE*/
+	
+	/* FOOTER AREA */
+	.Footer
+	{
+	  clear:both;
+	  margin-top:20px;
+	  padding-top:30px;
+	}
+	
+	.Footer p
+	{
+	  font-size:60%;
+	  margin-top:20px;
+	  background-color:transparent;
+	  width:auto;
+	}
+	/* END OF FOOTER AREA */
+	
+    
